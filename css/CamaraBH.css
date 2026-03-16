@@ -326,8 +326,9 @@
 }
 
 
+
 /* celulares médios */
-@media (max-width: 410px) {
+@media (max-width: 600px) {
   .novidade-card p {
     font-size: 0.85rem;
   }
