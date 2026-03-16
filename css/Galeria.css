@@ -1,4 +1,3 @@
-
 :root {
   --azul-escuro: #192a56;
   --primario: #0d6efd;
@@ -6,10 +5,9 @@
   --shadow-md: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
-
 #links-principais a:nth-of-type(5) {
-    color: #192a56;
-    font-weight: 900;
+  color: #192a56;
+  font-weight: 900;
 }
 
 /* Fundo suave */
@@ -109,19 +107,6 @@
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
-  .galeria-card img {
-    height: 32em;
-  }
-}
-
-@media (max-width: 480px) {
-  .galeria-card img {
-    height: 32em;
-  }
-
-
-}
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -134,9 +119,21 @@
   }
 }
 
+@media (max-width: 768px) {
+  .galeria-card img {
+    height: 32em;
+  }
+}
+
 /* Celular */
 @media (max-width: 600px) {
   .galeria-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria-card img {
+    height: 32em;
   }
 }

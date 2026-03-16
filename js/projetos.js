@@ -122,7 +122,7 @@ const projetosAprovados = [
   data: "28/04/2023",
   titulo: "🏛️ Lei 11489/2023 - Normas de Governança Pública e Gestão de Riscos",
   descricao: "Estabelece normas de governança pública e gestão de riscos para a gestão fiscal. Autoria de múltiplos vereadores. ",
-  imagem: "https://placehold.co/400x200/007bff/FFFFFF?text=Gest%C3%A3o+Fiscal+e+Riscos",
+  imagem: "https://placehold.co/400x200/FFA500/FFFFFF?text=Gest%C3%A3o+Fiscal+e+Riscos",
   link: "https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/lei/11489/2023"
 }
 

@@ -1,5 +1,12 @@
 const NoticiasCamera = [
   {
+  data: "Mar 13, 2026",
+  titulo: "José Ferreira propõe transparência em recursos do BH Resiliente 🌱🏙️",
+  text: "Em comissão, José Ferreira apresentou emenda ao PL 401/2025 para especificar ações financiadas pelo Programa BH Resiliente. A proposta busca aumentar a transparência na aplicação dos recursos do empréstimo.",
+  link: "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/03/pedido-de-r-500-milh%C3%B5es-para-adapta%C3%A7%C3%A3o-clim%C3%A1tica-est%C3%A1-pronto-para-2%C2%BA-turno",
+  linkname: "Leia a matéria completa",
+},
+  {
   data: "Mar 05, 2026",
   titulo: "José Ferreira apoia programa de telessaúde no SUS-BH 💻🏥",
   text: "José Ferreira é um dos autores da lei que cria o Programa Municipal de Incentivo à Telessaúde. A medida amplia o acesso a consultas médicas remotas e ajuda a reduzir a sobrecarga nas unidades de saúde.",
