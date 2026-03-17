@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+   <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag("consent","default",{
+    ad_storage:"denied",
+    ad_user_data:"denied",
+    ad_personalization:"denied",
+    analytics_storage:"denied"
+  });
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVZPVGZQXN"></script>
+
+<script>
+  gtag("js", new Date());
+  gtag("config","G-VVZPVGZQXN",{ anonymize_ip:true });
+</script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/img_Jose.jpg" type="image/png" />
+    <title>Projetos em Ação</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/Projetos.css" />
+
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <a
+        href="../index.html"
+        class="btn"
+        id="Voltar"
+        onclick="voltarPagina(event)"
+        >Voltar</a
+      >
+      <section class="projetos-Jose">
+        <div class="texto-container">
+          <h1>Projetos do Vereador José Ferreira</h1>
+          <p>
+            Aqui você pode encontrar os projetos em andamento e realizados pelo
+            vereador José Ferreira.
+          </p>
+        </div>
+        <div class="imagem-container">
+          <img src="../img/img_Jose.jpg" alt="Imagem Vereador" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <h2>Projetos em Andamento / Comissões</h2>
+        <div class="swiper projetos-andamento-swiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projetos Aprovados</h2>
+        <div class="swiper projetos-aprovados-swiper" id="aprovado">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-text">
+        Este site utiliza cookies para garantir que você tenha a melhor
+        experiência e para fins estatísticos (Google Analytics). Ao continuar
+        navegando, você concorda com nossa
+        <a href="PoliticaEPrivacidade.html" target="_blank"
+          >Política de Privacidade</a
+        >.
+      </div>
+      <button id="accept-cookies" class="btn-cookie">Entendi e Aceito</button>
+    </div>
+
+    <script>
+  const consent = localStorage.getItem("lgpd-aceito");
+
+  // Se já aceitou antes, libera analytics automaticamente
+  if (consent === "true") {
+    gtag("consent", "update", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "granted",
+    });
+  } else {
+    // Se ainda não decidiu, mostra o banner
+    document.getElementById("cookie-banner").style.display = "flex";
+  }
+
+  document.getElementById("accept-cookies").addEventListener("click", function () {
+    localStorage.setItem("lgpd-aceito", "true");
+
+    gtag("consent", "update", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "granted",
+    });
+
+    document.getElementById("cookie-banner").style.display = "none";
+  });
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="../js/projetos.js"></script>
+  </body>
+</html>

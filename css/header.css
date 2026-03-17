@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#Header-Principal {
+    background-color: #192a56;
+    color: #ffffff;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#Email_link {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#Email_link span:first-child {
+    font-weight: bold;
+}
+
+#Email_link:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+
+}
+
+.img {
+    height: 2rem;
+    width: 2rem;
+}
+
+#redes_socias {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  #Header-Principal {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    height: 7em;
+  }
+}

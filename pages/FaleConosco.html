@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VVZPVGZQXN"
+    ></script>
+
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-VVZPVGZQXN", { anonymize_ip: true });
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/img_Jose.jpg" type="image/png" />
+    <link rel="stylesheet" href="../css/FaleConosco.css" />
+    <link rel="stylesheet" href="../css/emendas.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <title>Fale Conosco</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-nav">
+        <a
+          href="../index.html"
+          class="btn"
+          id="Voltar"
+          onclick="voltarPagina(event)"
+          >Voltar</a
+        >
+
+        <div class="header-actions">
+          <a
+            href="https://wa.me/5531995112535"
+            target="_blank"
+            class="action-btn btn-whats"
+            title="Falar no WhatsApp"
+          >
+            <img src="../img/redesSocias/whatsapp.png" alt="WhatsApp" />
+          </a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6UKDQnyWc7LIDfugHLE99AtTB2hX-ngwapGgIPl4GdVLBw/viewform?usp=publish-editor"
+            target="_blank"
+            class="action-btn btn-google"
+            title="Formulário Completo"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png"
+              alt="Google Forms"
+            />
+          </a>
+        </div>
+      </div>
+
+      <section class="projetos-Jose">
+        <div class="texto-container">
+          <h1>Fale com o Gabinete</h1>
+          <p>
+            Aqui você pode enviar suas demandas por e-mail, dúvidas ou sugestões
+            pro Gabinete! Se tiver algo mais urgente, clique no ícone do
+            <strong><a href="https://wa.me/5531995112535" target="_blank" id="link">WhatsApp</a></strong> acima ou clique no nome. Para demandas complexas, use o
+            <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6UKDQnyWc7LIDfugHLE99AtTB2hX-ngwapGgIPl4GdVLBw/viewform?usp=publish-editor" id="link" target="_blank">Formulário do Google</a></strong>.
+          </p>
+        </div>
+        <div class="imagem-container">
+          <img
+            src="https://ofator.com.br/wp-content/uploads/2025/01/vereador-jose-ferreira-podemos.jpg"
+            alt="Imagem Vereador"
+          />
+        </div>
+      </section>
+    </header>
+
+    <main id="contato-main">
+      <div class="form-container">
+        <h2>Envie sua Mensagem (E-mail)</h2>
+        <p>
+          Preencha os campos abaixo para falar diretamente com nossa equipe.
+        </p>
+
+        <form
+          action="https://formsubmit.co/c0db43de6a1555767bcbdd1ee155348e"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <input type="text" name="_honey" style="display:none">
+
+          <input type="hidden" name="_subject" value="Novo Contato via Site" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <label for="titulo">Título / Assunto</label>
+          <input
+            type="text"
+            name="titulo"
+            id="titulo"
+            placeholder="Ex: Buraco na Rua X"
+            required
+          />
+
+          <label for="email">Seu Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="nome@email.com"
+            required
+          />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+
+          <label for="anexo"
+            >Anexar Foto (Opcional - Mais Ajuda na sua Demanda!)</label
+          >
+          <input
+            type="file"
+            name="attachment"
+            id="anexo"
+            accept="image/png, image/jpeg, application/pdf"
+            max="5242880"
+          />
+
+          <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+      </div>
+    </main>
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-text">
+        Este site utiliza cookies para garantir que você tenha a melhor
+        experiência e para fins estatísticos (Google Analytics). Ao continuar
+        navegando, você concorda com nossa
+        <a href="PoliticaEPrivacidade.html" target="_blank"
+          >Política de Privacidade</a
+        >.
+      </div>
+      <button id="accept-cookies" class="btn-cookie">Entendi e Aceito</button>
+    </div>
+
+    <script>
+      const consent = localStorage.getItem("lgpd-aceito");
+
+      // Se já aceitou antes, libera analytics automaticamente
+      if (consent === "true") {
+        gtag("consent", "update", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "granted",
+        });
+      } else {
+        // Se ainda não decidiu, mostra o banner
+        document.getElementById("cookie-banner").style.display = "flex";
+      }
+
+      document
+        .getElementById("accept-cookies")
+        .addEventListener("click", function () {
+          localStorage.setItem("lgpd-aceito", "true");
+
+          gtag("consent", "update", {
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            analytics_storage: "granted",
+          });
+
+          document.getElementById("cookie-banner").style.display = "none";
+        });
+    </script>
+
+    <script>
+      function voltarPagina(event) {
+        if (window.history.length > 1) {
+          event.preventDefault();
+          window.history.back();
+        }
+      }
+    </script>
+  </body>
+</html>

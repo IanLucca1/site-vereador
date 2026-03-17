@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VVZPVGZQXN"
+    ></script>
+
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-VVZPVGZQXN", { anonymize_ip: true });
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../img/img_Jose.jpg" type="image/png" />
+    <title>Tabela de Emendas - Vereador José Ferreira</title>
+    <link rel="stylesheet" href="../css/EmendasTodas.css" />
+    <link rel="stylesheet" href="../css/emendas.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Acompanhamento de Emendas</h1>
+      <p>Navegue pelas emendas destinadas nos últimos anos.</p>
+      <a href="EmendasParlamentares.html" value="Voltar" class="btn" id="Voltar"
+        >Voltar</a
+      >
+    </header>
+
+    <nav class="nav-anos">
+      <a href="#ano-2023" class="btn">Ver Emendas de 2023</a>
+      <a href="#ano-2024" class="btn">Ver Emendas de 2024</a>
+      <a href="#ano-2025" class="btn">Ver Emendas de 2025</a>
+    </nav>
+
+    <main class="container-tabelas">
+      <section id="ano-2025" class="secao-ano">
+        <h2>Acompanhamento das Emendas Destinadas de 2024/2025</h2>
+        <div class="tabela-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Beneficiário</th>
+                <th>Objeto da Emenda</th>
+                <th
+                  class="header-sortable"
+                  data-column-index="2"
+                  data-sort-type="number"
+                  data-target-tbody="tbody-2025"
+                  style="cursor: pointer"
+                >
+                  Valor &#x25BC;
+                </th>
+                <th
+                  class="header-sortable"
+                  data-column-index="3"
+                  data-sort-type="status"
+                  data-target-tbody="tbody-2025"
+                  style="cursor: pointer"
+                >
+                  Status &#x25BC;
+                </th>
+              </tr>
+            </thead>
+
+            <tbody id="tbody-2025"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="ano-2024" class="secao-ano">
+        <h2>Acompanhamento das Emendas Parlamentares de 2023/2024</h2>
+        <div class="tabela-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Beneficiário</th>
+                <th>Objeto da Emenda</th>
+                <th
+                  class="header-sortable"
+                  data-column-index="2"
+                  data-sort-type="number"
+                  data-target-tbody="tbody-2024"
+                  style="cursor: pointer"
+                >
+                  Valor &#x25BC;
+                </th>
+                <th
+                  class="header-sortable"
+                  data-column-index="3"
+                  data-sort-type="status"
+                  data-target-tbody="tbody-2024"
+                  style="cursor: pointer"
+                >
+                  Status &#x25BC;
+                </th>
+              </tr>
+            </thead>
+            <tbody id="tbody-2024"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="ano-2023" class="secao-ano">
+        <h2>Acompanhamento das Emendas Parlamentares de 2022/2023</h2>
+        <div class="tabela-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Beneficiário</th>
+                <th>Objeto da Emenda</th>
+                <th
+                  class="header-sortable"
+                  data-column-index="2"
+                  data-sort-type="number"
+                  data-target-tbody="tbody-2023"
+                  style="cursor: pointer"
+                >
+                  Valor &#x25BC;
+                </th>
+                <th
+                  class="header-sortable"
+                  data-column-index="3"
+                  data-sort-type="status"
+                  data-target-tbody="tbody-2023"
+                  style="cursor: pointer"
+                >
+                  Status &#x25BC;
+                </th>
+              </tr>
+            </thead>
+            <tbody id="tbody-2023"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <div id="cookie-banner" class="cookie-banner">
+      <div class="cookie-text">
+        Este site utiliza cookies para garantir que você tenha a melhor
+        experiência e para fins estatísticos (Google Analytics). Ao continuar
+        navegando, você concorda com nossa
+        <a href="PoliticaEPrivacidade.html" target="_blank"
+          >Política de Privacidade</a
+        >.
+      </div>
+      <button id="accept-cookies" class="btn-cookie">Entendi e Aceito</button>
+    </div>
+
+    <script>
+      const consent = localStorage.getItem("lgpd-aceito");
+
+      // Se já aceitou antes, libera analytics automaticamente
+      if (consent === "true") {
+        gtag("consent", "update", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "granted",
+        });
+      } else {
+        // Se ainda não decidiu, mostra o banner
+        document.getElementById("cookie-banner").style.display = "flex";
+      }
+
+      document
+        .getElementById("accept-cookies")
+        .addEventListener("click", function () {
+          localStorage.setItem("lgpd-aceito", "true");
+
+          gtag("consent", "update", {
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            analytics_storage: "granted",
+          });
+
+          document.getElementById("cookie-banner").style.display = "none";
+        });
+    </script>
+
+    <script src="../js/EmendasTodas.js"></script>
+    <script src="../js/Ordenar.js"></script>
+  </body>
+</html>

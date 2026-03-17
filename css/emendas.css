@@ -1,0 +1,235 @@
+/* Estilos gerais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Estilo da Seção Principal (Hero) - Sem alterações */
+.hero-emendas {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #192a56;
+  color: #ffffff;
+  padding: 60px 80px;
+  min-height: 70vh;
+}
+.texto-container {
+  flex: 1;
+}
+.texto-container h1 {
+  font-size: 3rem;
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+.texto-container h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.texto-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.imagem-container {
+  flex: 1;
+  text-align: center;
+}
+.imagem-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* Estilo compartilhado para TODOS os botões */
+.btn {
+  display: inline-block;
+  background-color: #425481;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  border: none; 
+  cursor: pointer; 
+  font-family: inherit;
+}
+
+
+.btn:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+
+#Voltar {
+  margin-left: 10px;
+}
+
+
+.secao-emendas {
+
+  padding: 60px 80px;
+}
+
+.secao-emendas h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* O container do Swiper agora só precisa de um pouco de espaço */
+.swiper-emendas {
+  width: 100%;
+  padding: 10px 0 40px 0; /* Espaço para a paginação abaixo */
+  height: 25rem;
+}
+
+/* --- ESTILO DA ETIQUETA (BADGE) --- */
+
+/* Segura a imagem e a etiqueta juntas */
+.img-container {
+    position: relative; /* Importante: Permite itens flutuantes dentro dele */
+    width: 100%;
+    height: 200px;
+}
+
+/* Garante que a imagem preencha o container certinho */
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Remove espaços brancos indesejados */
+}
+
+/* A Etiqueta flutuante */
+.categoria-badge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    color: #ffffff;
+    padding: 8px 20px;
+    /* border-radius: 30px; */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    z-index: 10;
+    white-space: nowrap;
+}
+
+/* Estilo de cada Card */
+.emenda-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: flex; 
+  flex-direction: column; 
+  height: 100%; 
+}
+
+.emenda-card:hover {
+  transform: translateY(-5px);
+}
+
+.emenda-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.emenda-card .card-content {
+  padding: 20px;
+  flex-grow: 1; /* Faz esta área crescer para ocupar o espaço disponível */
+}
+
+.emenda-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.25rem;
+  color: #1a2a44;
+}
+
+.emenda-card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.emenda-card p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* número de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* Ajuste opcional para a cor dos botões de navegação do Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #192a56; /* Cor dos botões */
+}
+
+.swiper-pagination-bullet-active {
+  background: #192a56; /* Cor da bolinha ativa */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: var(--swiper-navigation-top-offset, 35%);
+}
+
+@media (max-width: 768px) {
+  .hero-emendas {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 50vh;
+  }
+
+  .imagem-container {
+    display: none;
+  }
+
+  .texto-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .texto-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .texto-container p {
+    font-size: 1rem;
+  }
+  .secao-emendas {
+    padding: 40px 20px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 40%;
+
+    --swiper-navigation-size: 28px;
+  }
+}
+
+/* --- Responsividade para telas de 500px ou menos --- */
+
+@media (max-width: 500px) {
+  #Voltar {
+    margin-left: 0;
+  }
+
+  .swiper-emendas {
+    height: 28rem;
+  }
+}

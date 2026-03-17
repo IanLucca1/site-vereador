@@ -1,0 +1,98 @@
+#links-principais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+#logan {
+  height: 12rem;
+  width: auto;
+}
+
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 1100;
+  color: #192a56;
+}
+
+#menu-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+#menu-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#menu-nav a:hover {
+  transform: scale(1.1);
+  color: #192a57;
+}
+
+#menu-nav a.ativo {
+  color: #192a56;
+  font-weight: 900;
+}
+
+
+@media(max-width: 972px)
+{
+  .slide-content h2{
+        font-size: 24px;
+  }
+
+  #leis_img2{
+    height: 165px;
+  }
+
+}
+
+@media (max-width: 950px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #logan {
+    height: 10rem;
+  }
+
+  #menu-nav {
+    display: none;
+
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  #menu-nav.active {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  #menu-nav.active a {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  #menu-nav.active a:last-child {
+    border-bottom: none;
+  }
+}

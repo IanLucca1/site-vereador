@@ -1,0 +1,138 @@
+/* --- Footer --- */
+#footer {
+  background-color: #192a56;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1 1 300px; /* ocupa espaço à esquerda */
+  
+}
+
+.footer-left a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-center {
+  flex: 0 1 100%;
+  text-align: center;
+  order: 3; /* garante que a copyright fique central em mobile */
+  border-top: 2px solid #ccc ;
+  margin-top: 2px;
+}
+.footer-center p {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-right {
+  flex: 0 0 auto; /* mantém a largura da figura */
+  text-align: right;
+  text-align: center;
+}
+
+.footer-right img {
+  width: 10rem;
+  height: 10rem;
+
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.footer-links li::marker {
+   content: "| ";
+  color: #fff;
+  font-size: 25px;
+}
+
+
+/* --- BARRA DE COOKIES (LGPD) --- */
+.cookie-banner {
+    display: none; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #192a56; 
+    color: white;
+    padding: 20px;
+    z-index: 99999; 
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.cookie-text {
+    font-size: 0.95rem;
+    max-width: 800px;
+    line-height: 1.4;
+}
+
+.cookie-text a {
+    color: #4cd137; 
+    text-decoration: underline;
+}
+
+.btn-cookie {
+    background-color: #4cd137;
+    color: #192a56;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.2s;
+    white-space: nowrap; 
+}
+
+.btn-cookie:hover {
+    transform: scale(1.05);
+}
+
+
+#Pdp {
+  text-decoration: none;
+  color: #e6eefc;
+  display: inline-block; /* MUITO IMPORTANTE */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#Pdp:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+/* Responsivo para celular */
+@media (max-width: 768px) {
+    .cookie-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 680px)
+{
+  .footer-left {
+  flex: 1 1 150px; /* ocupa espaço à esquerda */
+  
+
+  
+}
+
+}
