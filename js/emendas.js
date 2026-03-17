@@ -109,3 +109,14 @@ const emendasSwiper = new Swiper(".swiper-emendas", {
     prevEl: ".swiper-emendas .swiper-button-prev",
   },
 });
+
+
+
+function voltarPagina(event) {
+
+  if (window.history.length > 1) {
+    event.preventDefault();
+    window.history.back(); 
+  }
+
+}

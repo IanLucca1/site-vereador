@@ -136,3 +136,5 @@ function renderGaleria() {
 }
 
 document.addEventListener("DOMContentLoaded", renderGaleria);
+
+
