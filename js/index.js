@@ -1,6 +1,13 @@
 // Dados de exemplo (textos resumidos: 3–4 linhas)
 const Noticias = [
   {
+    data: "Mar 17, 2026",
+    titulo: "Nono Parque no antigo Aterro Sanitário aterro 🌳",
+    text: "O antigo Aterro Sanitário está se transformando em um novo espaço verde, o Nono Parque, que vai oferecer lazer, convivência e qualidade de vida para a população. Um projeto que valoriza o meio ambiente e fortalece a conexão com a natureza.",
+    link: "https://www.instagram.com/p/DWAAaujghhZ/",
+    linkname: "@Instagram",
+  },
+  {
     data: "Mar 08, 2026",
     titulo: "Dia Internacional da Mulher – Homenagem e Compromisso 💜",
     text: "No Dia Internacional da Mulher, homenageamos a força, a coragem e a determinação de todas as mulheres. Seguimos firmes no compromisso de lutar por igualdade, respeito e oportunidades para todas, construindo uma sociedade mais justa e inclusiva.",
