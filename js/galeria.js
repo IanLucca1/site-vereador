@@ -1,144 +1,17 @@
-const fotos = [
-  // ComissaoEspecial
-  {
-    titulo: "Visita ao Comissao Especial",
-    imagem: "../img/ComissaoEspecial/comissaoEspecial.jpg",
-  },
-  {
-    titulo: "Visita ao Comissao Especial",
-    imagem: "../img/ComissaoEspecial/teste3.jpg",
-  },
+async function carregarGaleria() {
+  const res = await fetch('/json/Galeria.json');
+  const fotos = await res.json();
 
-  // CS_BomJesus
-  {
-    titulo: "Visita ao CS BomJesus",
-    imagem: "../img/CS_BomJesus/bomJesus1.jpg",
-  },
-  {
-    titulo: "Visita ao CS BomJesus",
-    imagem: "../img/CS_BomJesus/bomJesus2.jpg",
-  },
-  {
-    titulo: "Visita ao CS BomJesus",
-    imagem: "../img/CS_BomJesus/bomJesus3.jpg",
-  },
-  { titulo: "Visita ao CS BomJesus", imagem: "../img/CS_BomJesus/teste1.jpg" },
+  renderGaleria(fotos);
+}
 
-  // CS_California
-  {
-    titulo: "Visita ao CS California",
-    imagem: "../img/CS_California/california1.jpg",
-  },
-  {
-    titulo: "Visita ao CS California",
-    imagem: "../img/CS_California/california2.jpg",
-  },
-  {
-    titulo: "Visita ao CS California",
-    imagem: "../img/CS_California/california3.jpg",
-  },
-  {
-    titulo: "Visita ao CS California",
-    imagem: "../img/CS_California/teste2.jpg",
-  },
-
-  // CS_DomCabral
-  {
-    titulo: "Visita ao CS DomCabral",
-    imagem: "../img/CS_DomCabral/domCabral1.jpg",
-  },
-  {
-    titulo: "Visita ao CS DomCabral",
-    imagem: "../img/CS_DomCabral/domCabral2.jpg",
-  },
-  {
-    titulo: "Visita ao CS DomCabral",
-    imagem: "../img/CS_DomCabral/teste5.jpg",
-  },
-  {
-    titulo: "Visita ao CS DomCabral",
-    imagem: "../img/CS_DomCabral/teste6.jpg",
-  },
-  {
-    titulo: "Visita ao CS DomCabral",
-    imagem: "../img/CS_DomCabral/domCabral3.jpg",
-  },
-
-  // CS_Ermelinda
-  {
-    titulo: "Visita ao CS Ermelinda",
-    imagem: "../img/CS_Ermelinda/Ermelinda1.jpg",
-  },
-  {
-    titulo: "Visita ao CS Ermelinda",
-    imagem: "../img/CS_Ermelinda/Ermelinda2.jpg",
-  },
-  {
-    titulo: "Visita ao CS Ermelinda",
-    imagem: "../img/CS_Ermelinda/Ermelinda3.jpg",
-  },
-  {
-    titulo: "Visita ao CS Ermelinda",
-    imagem: "../img/CS_Ermelinda/teste4.jpg",
-  },
-  {
-    titulo: "Visita ao CS Ermelinda",
-    imagem: "../img/CS_Ermelinda/Ermelinda4.jpg",
-  },
-
-  // Comissão de Saúde e Saneamento
-  {
-    titulo: "39ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude.jpg",
-  },
-  {
-    titulo: "39ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude2.jpg",
-  },
-  {
-    titulo: "38ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude3.jpg",
-  },
-  {
-    titulo: "34ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude4.jpg",
-  },
-  {
-    titulo: "25ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude5.jpg",
-  },
-  {
-    titulo: "Audiência para apresentar relatório detalhado referente ao 3º quadrimestre de 2025",
-    imagem: "../img/comissaoSaude/comissaoSaude6.jpg",
-  },
-  {
-    titulo: "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    imagem: "../img/comissaoSaude/comissaoSaude7.jpg"
-  },
-  {
-    titulo: "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    imagem: "../img/comissaoSaude/comissaoSaude8.jpg"
-  },
-  {
-    titulo: "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    imagem: "../img/comissaoSaude/comissaoSaude9.jpg"
-
-  },
-  {
-    titulo: "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    imagem: "../img/comissaoSaude/comissaoSaude10.jpg"
-  }
-
-];
-
-function renderGaleria() {
+function renderGaleria(dados) {
   const galeria = document.getElementById("galeria");
-
   if (!galeria) return;
 
   galeria.innerHTML = "";
 
-  fotos.forEach((foto) => {
+  dados.forEach((foto) => {
     const card = document.createElement("div");
     card.classList.add("galeria-card");
 
@@ -153,6 +26,6 @@ function renderGaleria() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", renderGaleria);
+document.addEventListener("DOMContentLoaded", carregarGaleria);
 
 
