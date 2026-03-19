@@ -37,33 +37,28 @@ async function carregarEmendas() {
   const EmendasParlamentares = await res.json();
 
   popularCarrosselEmendas(".swiper-emendas", EmendasParlamentares);
+
+
+  new Swiper(".swiper-emendas", { 
+    loop: true,
+    slidesPerView: 1, 
+    spaceBetween: 20,
+    breakpoints: {
+      768: { slidesPerView: 2, spaceBetween: 30 },
+      1024: { slidesPerView: 3, spaceBetween: 30 },
+    },
+    pagination: {
+      el: ".swiper-emendas .swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-emendas .swiper-button-next",
+      prevEl: ".swiper-emendas .swiper-button-prev",
+    },
+  });
 }
 
-const emendasSwiper = new Swiper(".swiper-emendas", { 
-  loop: true,
-  slidesPerView: 1, 
-  spaceBetween: 20,
-  breakpoints: {
-    768: {
-      slidesPerView: 2, 
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 3, 
-      spaceBetween: 30,
-    },
-  },
-  pagination: {
-    el: ".swiper-emendas .swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-emendas .swiper-button-next",
-    prevEl: ".swiper-emendas .swiper-button-prev",
-  },
-});
-
-carregarEmendas();
+carregarEmendas(); // Só chama isso, sem o Swiper antes
 
 function voltarPagina(event) {
 
