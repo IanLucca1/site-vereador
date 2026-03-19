@@ -65,7 +65,7 @@ function iniciarSwipers() {
 
 
 async function carregarProjetos() {
-  const res = await fetch('/json/projetosLeis.json');
+  const res = await fetch('./json/projetosLeis.json');
   const dados = await res.json();
 
   popularCarrossel(".projetos-andamento-swiper", dados.andamento);
