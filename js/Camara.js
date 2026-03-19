@@ -26,7 +26,7 @@ function popularCarrosselCamera(seletorSwiper, dados) {
 
 
 async function carregarNoticias() {
-  const res = await fetch('./json/noticiasCamara.json');
+  const res = await fetch('/Site-Vereador_Teste/json/noticiasCamara.json');
   const NoticiasCamera = await res.json();
 
   popularCarrosselCamera(".swiper-camera", NoticiasCamera);

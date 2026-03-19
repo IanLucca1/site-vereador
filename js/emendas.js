@@ -33,7 +33,7 @@ function popularCarrosselEmendas(seletorSwiper, dados) {
 
 
 async function carregarEmendas() {
-  const res = await fetch('/json/Emendas.json');
+  const res = await fetch('/Site-Vereador_Teste/json/emendas.json');
   const EmendasParlamentares = await res.json();
 
   popularCarrosselEmendas(".swiper-emendas", EmendasParlamentares);

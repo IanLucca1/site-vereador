@@ -33,7 +33,7 @@ function popularTabela(ano, dados) {
 }
 
 async function carregarEmendas() {
-  const res = await fetch('./json/EmendasTodas.json');
+  const res = await fetch('/Site-Vereador_Teste/json/EmendasTodas.json');
   const dados = await res.json();
 
   const todasAsEmendas = dados;
