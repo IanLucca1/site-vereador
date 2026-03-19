@@ -22,7 +22,7 @@ function popularCarrosselNovidades(seletorSwiper, dados) {
 }
 
 async function carregarNoticias() {
-  const res = await fetch('/Site-Vereador_Teste/json/noticiasHome.json');
+  const res = await fetch('./json/noticiasHome.json');
   const Noticias = await res.json();
 
   popularCarrosselNovidades(".swiper-novidade", Noticias);

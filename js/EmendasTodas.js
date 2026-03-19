@@ -1,5 +1,3 @@
-
-
 // --- FUNÇÃO PARA POPULAR UMA TABELA ---
 function popularTabela(ano, dados) {
   const tbody = document.getElementById(`tbody-${ano}`);
@@ -33,7 +31,7 @@ function popularTabela(ano, dados) {
 }
 
 async function carregarEmendas() {
-  const res = await fetch('/Site-Vereador_Teste/json/EmendasTodas.json');
+  const res = await fetch('../json/EmendasTodas.json');
   const dados = await res.json();
 
   const todasAsEmendas = dados;
