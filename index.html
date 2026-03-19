@@ -38,17 +38,17 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="css/header.css" />
-     <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/index.css" />
-    
+
     <link rel="stylesheet" href="css/footer.css" />
-   
+
     <title>Home - José Ferreira</title>
   </head>
 
   <body>
     <header id="Header-Principal">
-      <div >
+      <div>
         <ul id="redes_socias">
           <li>
             <a
@@ -56,7 +56,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="img/redesSocias/instagram.png" alt="insta" class="img" />
+              <img
+                src="img/redesSocias/instagram.png"
+                alt="insta"
+                class="img"
+              />
             </a>
           </li>
           <li>
@@ -65,12 +69,19 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="img/redesSocias/facebook.png" alt="facebook" class="img" />
+              <img
+                src="img/redesSocias/facebook.png"
+                alt="facebook"
+                class="img"
+              />
             </a>
           </li>
           <li>
             <a href="https://wa.me/5531995112535" target="_blank"
-              ><img src="img/redesSocias/whatsapp.png" alt="whatsapp" class="img"
+              ><img
+                src="img/redesSocias/whatsapp.png"
+                alt="whatsapp"
+                class="img"
             /></a>
           </li>
         </ul>
@@ -92,7 +103,7 @@
           /></a>
 
           <button id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
-         <nav id="menu-nav">
+          <nav id="menu-nav">
             <a href="index.html">Home</a>
             <a href="pages/JoseFerreira.html">Quem Sou</a>
             <a href="pages/CamaraBH.html">Câmara de BH</a>
@@ -103,11 +114,39 @@
           </nav>
         </div>
       </div>
-
       <div class="carousel">
+        <!-- SLIDE 1 - Apresentação do Vereador -->
         <div class="slide active">
+          <div class="slide-content split">
+            <div class="slide-image">
+              <img
+                src="img/jose.webp"
+                alt="Vereador José Ferreira"
+                id="leis_img"
+                loading="lazy"
+              />
+            </div>
+            <div class="slide-text">
+              <h2>Conheça o Vereador José Ferreira</h2>
+              <p>
+                O vereador é o representante do povo na Câmara Municipal. É ele
+                quem apresenta projetos de lei, fiscaliza o poder executivo e
+                leva as demandas da comunidade até a Prefeitura.
+                <br /><br />
+                José Ferreira é Líder da Bancada do PODEMOS, Corregedor e
+                Presidente da Comissão de Saúde e Saneamento de Belo Horizonte.
+              </p>
+              <a href="pages/quem-sou.html" rel="noopener noreferrer">
+                <button type="button" id="button-carrosel">Saiba mais</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 - Notícias -->
+        <div class="slide">
           <div class="slide-content centered">
-            <h2>Acompanhe as ultimas noticias do mandato!</h2>
+            <h2>Acompanhe as últimas notícias do mandato!</h2>
             <p>
               Fique por dentro das ações, projetos e iniciativas do vereador
               José Ferreira na Câmara Municipal de Belo Horizonte.
@@ -119,15 +158,25 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button type="button" value="Noticias" id="button-carrosel">
-                Noticias
-              </button>
+              <button type="button" id="button-carrosel">Notícias</button>
             </a>
           </div>
         </div>
 
+        <!-- SLIDE 3 - Projetos e Leis -->
         <div class="slide">
-          <div class="slide-content split">
+          <div class="slide-content split reverse">
+            <div class="slide-text">
+              <h2>Projetos e leis que transformam nossa cidade.</h2>
+              <p>Confira os principais projetos e leis do município.</p>
+              <a
+                href="https://www.cmbh.mg.gov.br/vereadores/jos%C3%A9-ferreira/legislacao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" id="button-carrosel">Leis</button>
+              </a>
+            </div>
             <div class="slide-image">
               <img
                 src="img/teste.jpg"
@@ -136,60 +185,42 @@
                 loading="lazy"
               />
             </div>
-
-            <div class="slide-text">
-              <h2>
-                Descubra os principais projetos e leis que transformam nossa
-                cidade.
-              </h2>
-              <p>Confira os principais projetos e leis do município.</p>
-              <br />
-              <a
-                href="https://www.cmbh.mg.gov.br/vereadores/jos%C3%A9-ferreira/legislacao"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button type="button" value="Leis" id="button-carrosel">
-                  Leis
-                </button>
-              </a>
-            </div>
           </div>
         </div>
 
-        <div class="slide active">
-          <div class="slide-content centered">
-            <h2>Venha acompanhar a onde as Emendas estão sendo Enviadas!</h2>
+        <!-- SLIDE 4 - Emendas -->
+        <div class="slide">
+          <div class="slide-content split">
             <div class="slide-image">
               <img
                 src="img/Jose_Quemsou.jfif"
-                alt="Projetos e leis"
+                alt="Emendas Parlamentares"
                 id="leis_img2"
                 loading="lazy"
               />
             </div>
-            <p>
-              Fique por dentro pra saber onde as emendas parlamentares do
-              vereador José Ferreira estão sendo aplicadas.
-              <br />
-              Acompanhe nossa tabela de emendas para mais informações.
-            </p>
-            <a
-              href="pages/EmendasParlamentares.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button type="button" value="Noticias" id="button-carrosel">
-                Emendas
-              </button>
-            </a>
+            <div class="slide-text">
+              <h2>Veja onde as Emendas estão sendo aplicadas!</h2>
+              <p>
+                Fique por dentro de onde as emendas parlamentares do vereador
+                José Ferreira estão sendo investidas na cidade.
+                <br />
+                Acompanhe nossa tabela de emendas para mais informações.
+              </p>
+              <a
+                href="pages/EmendasParlamentares.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" id="button-carrosel">Emendas</button>
+              </a>
+            </div>
           </div>
         </div>
 
         <button id="prev" aria-label="Slide anterior">←</button>
         <button id="next" aria-label="Próximo slide">→</button>
       </div>
-
       <section class="novidades-section">
         <h2>Novidades do Mandato</h2>
 
@@ -259,18 +290,20 @@
             <a href="pages/CamaraBH.html" class="Links">Câmara de BH</a>
           </li>
           <li>
-            <a href="pages/Projetos.html" class="Links"
-              >Principais Projetos</a
-            >
+            <a href="pages/Projetos.html" class="Links">Principais Projetos</a>
           </li>
-           <li>
-            <a href="pages/EmendasParlamentares.html" class="Links">Emendas Parlamentares</a>
+          <li>
+            <a href="pages/EmendasParlamentares.html" class="Links"
+              >Emendas Parlamentares</a
+            >
           </li>
           <li>
             <a href="pages/FaleConosco.html" class="Links">Fale Conosco</a>
           </li>
           <li>
-            <a href="https://www.cmbh.mg.gov.br/node/add/lai" class="Links">Fale com Ouvidoria</a>
+            <a href="https://www.cmbh.mg.gov.br/node/add/lai" class="Links"
+              >Fale com Ouvidoria</a
+            >
           </li>
         </ul>
       </div>
@@ -303,7 +336,6 @@
       <button id="accept-cookies" class="btn-cookie">Entendo e Aceito</button>
     </div>
 
-    
     <script>
       const consent = localStorage.getItem("lgpd-aceito");
 
@@ -336,10 +368,6 @@
         });
     </script>
 
-
-
-
-    
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/menu.js"></script>
