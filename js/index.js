@@ -22,46 +22,43 @@ function popularCarrosselNovidades(seletorSwiper, dados) {
 }
 
 async function carregarNoticias() {
-  const res = await fetch('./json/noticiasHome.json');
+  const res = await fetch("./json/noticiasHome.json");
   const Noticias = await res.json();
 
   popularCarrosselNovidades(".swiper-novidade", Noticias);
+
+  // Inicializar o Swiper
+  const novidadesSwiper = new Swiper(".swiper-novidade", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+
+    autoplay: {
+      delay: 5000, // 5 segundos é o tempo ideal para leitura desses textos
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true, // Pausa o movimento quando o mouse estiver em cima
+    },
+
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+    },
+    pagination: {
+      el: ".swiper-novidade .swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-novidade .swiper-button-next",
+      prevEl: ".swiper-novidade .swiper-button-prev",
+    },
+  });
 }
-
-// Chamar a função para criar os cards
-//popularCarrosselNovidades(".swiper-novidade", Noticias);
-
-// Inicializar o Swiper
-const novidadesSwiper = new Swiper(".swiper-novidade", {
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 20,
-
-  autoplay: {
-    delay: 5000, // 5 segundos é o tempo ideal para leitura desses textos
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true, // Pausa o movimento quando o mouse estiver em cima
-  },
-
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-  },
-  pagination: {
-    el: ".swiper-novidade .swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-novidade .swiper-button-next",
-    prevEl: ".swiper-novidade .swiper-button-prev",
-  },
-});
 
 carregarNoticias();
 

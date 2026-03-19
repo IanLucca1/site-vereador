@@ -25,44 +25,50 @@ function popularCarrosselCamera(seletorSwiper, dados) {
 }
 
 
+// Guarda a instância globalmente pra poder usar no resize
+let novidadesSwiper;
+
 async function carregarNoticias() {
   const res = await fetch('../json/noticiasCamara.json');
   const NoticiasCamera = await res.json();
 
+  // 1. Popula os slides PRIMEIRO
   popularCarrosselCamera(".swiper-camera", NoticiasCamera);
-}
 
-
-// Inicializa o Swiper
-const novidadesSwiper = new Swiper(".swiper-camera", {
-  // MOBILE (padrão)
-  direction: "horizontal",
-  slidesPerView: 1,
-  spaceBetween: 12,
-  loop: true,
-  mousewheel: false,
-
-  pagination: {
-    el: ".swiper-camera .swiper-pagination",
-    clickable: true,
-  },
-
-  // TABLET/PC
-  breakpoints: {
-  769: {
-    direction: "vertical",
-    slidesPerView: 3,
-    spaceBetween: 30,
+  // 2. SÓ DEPOIS inicializa o Swiper — assim a paginação é criada com os slides já no DOM
+  novidadesSwiper = new Swiper(".swiper-camera", {
+    // MOBILE (padrão)
+    direction: "horizontal",
+    slidesPerView: 1,
+    spaceBetween: 12,
     loop: true,
-    mousewheel: {
-      enabled: true,
-      forceToAxis: true,
-      releaseOnEdges: true,
-      sensitivity: 1,
+    mousewheel: false,
+
+    pagination: {
+      el: ".swiper-camera .swiper-pagination",
+      clickable: true,
     },
-  },
-},
-});
+
+    // TABLET/PC
+    breakpoints: {
+      769: {
+        direction: "vertical",
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        mousewheel: {
+          enabled: true,
+          forceToAxis: true,
+          releaseOnEdges: true,
+          sensitivity: 1,
+        },
+      },
+    },
+  });
+
+  // 3. Garante estado correto logo após inicializar
+  syncSwiperOnResize(novidadesSwiper);
+}
 
 carregarNoticias();
 
@@ -86,7 +92,7 @@ function syncSwiperOnResize(swiper) {
   }
 }
 
-// quando mudar tamanho / emulação
+// Quando mudar tamanho / emulação
 window.addEventListener("resize", () => {
   syncSwiperOnResize(novidadesSwiper);
 });
@@ -94,6 +100,3 @@ window.addEventListener("resize", () => {
 window.addEventListener("orientationchange", () => {
   syncSwiperOnResize(novidadesSwiper);
 });
-
-// garante estado correto no carregamento
-syncSwiperOnResize(novidadesSwiper);
