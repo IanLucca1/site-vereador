@@ -8,14 +8,14 @@
 /* --- Banner Quem Sou --- */
 .banner-quem-sou {
   width: 100%;
-  height: 35rem;
+  height: 48rem;
   background: linear-gradient(180deg, #171738 60%, #08043b 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
   position: relative;
-  background-image: url("../img/Jose_Quemsou.jfif");
+  background-image: url("../img/img_JoseTeste.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

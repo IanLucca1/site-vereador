@@ -177,10 +177,26 @@ form textarea:focus {
 }
 
 
-#link {
+.link {
   color: #f4f4f4;
   text-decoration: none;
   font-weight: bold;
+}
+
+#link_Wap{
+ transition: 1s;
+}
+#link_Wap:hover {
+  color: #0ca629;
+  transform: scale(1.1);
+}
+
+#link_Form{
+  transition: 1s;
+}
+#link_Form:hover {
+  color: #9467e0;
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
