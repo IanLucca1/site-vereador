@@ -77,20 +77,19 @@ body {
   color: #333;
 }
 
-/* O container do Swiper agora só precisa de um pouco de espaço */
 .swiper-emendas {
   width: 100%;
-  padding: 10px 0 40px 0; /* Espaço para a paginação abaixo */
+  padding: 10px 0 40px 0;
   height: 25rem;
 }
-/* ── SECTION ─────────────────────────────────────────── */
+/*  SECTION  */
 #destino-emendas {
   padding: 64px 80px 72px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* ── TÍTULO PRINCIPAL ────────────────────────────────── */
+/*  TÍTULO PRINCIPAL  */
 #destino-emendas > h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -111,7 +110,7 @@ body {
   border-radius: 2px;
 }
 
-/* ── TEXTO INTRO ─────────────────────────────────────── */
+/*  TEXTO INTRO*/
 .intro-text {
   margin-top: 20px;
   font-size: 1rem;
@@ -119,7 +118,7 @@ body {
   line-height: 1.6;
 }
 
-/* ── SUBTÍTULO ───────────────────────────────────────── */
+/*  SUBTÍTULO  */
 .valores-block h3 {
   font-size: 1.1rem;
   font-weight: 700;
@@ -127,7 +126,7 @@ body {
   margin: 40px 0 16px;
 }
 
-/* ── GRID DOS CARDS ──────────────────────────────────── */
+/*  GRID DOS CARDS  */
 .areas-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -137,7 +136,7 @@ body {
   margin: 0;
 }
 
-/* ── CARD INDIVIDUAL ─────────────────────────────────── */
+/*  CARD INDIVIDUAL  */
 .area-card {
   background: #fff;
   border-radius: 10px;
@@ -157,7 +156,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.13);
 }
 
-/* Linha colorida lateral discreta */
 .area-card .card-label {
   font-size: 0.78rem;
   font-weight: 700;
@@ -197,24 +195,19 @@ body {
   --accent: #8e24aa;
 }
 
-/* --- ESTILO DA ETIQUETA (BADGE) --- */
-
-/* Segura a imagem e a etiqueta juntas */
 .img-container {
-  position: relative; /* Importante: Permite itens flutuantes dentro dele */
+  position: relative;
   width: 100%;
   height: 200px;
 }
 
-/* Garante que a imagem preencha o container certinho */
 .img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; /* Remove espaços brancos indesejados */
+  display: block;
 }
 
-/* A Etiqueta flutuante */
 .categoria-badge {
   position: absolute;
   top: 50%;
@@ -257,7 +250,7 @@ body {
 
 .emenda-card .card-content {
   padding: 20px;
-  flex-grow: 1; /* Faz esta área crescer para ocupar o espaço disponível */
+  flex-grow: 1;
 }
 
 .emenda-card h4 {
@@ -275,19 +268,18 @@ body {
 
 .emenda-card p {
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* número de linhas */
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-/* Ajuste opcional para a cor dos botões de navegação do Swiper */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #192a56; /* Cor dos botões */
+  color: #192a56;
 }
 
 .swiper-pagination-bullet-active {
-  background: #192a56; /* Cor da bolinha ativa */
+  background: #192a56;
 }
 
 .swiper-button-next,

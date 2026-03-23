@@ -74,15 +74,13 @@
   font-weight: bold;
 }
 
-
 #links-principais a:nth-of-type(2) {
   color: #192a56;
   font-weight: 900;
 }
 
-/* --- Seções de Conteúdo (História, Compromissos) --- */
+/* --- Seções de Conteúdo --- */
 .secao-conteudo {
-  /* Classe reutilizável */
   margin: 2rem 0;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -121,75 +119,71 @@
 }
 
 @media (max-width: 768px) {
-  #Email_link {
-
-  }
+  /* #Email_link {
+  }*/
   /* --- Ajustes no Header Superior --- */
   #Header-Principal {
-    height: auto; /* Altura automática para caber o conteúdo */
-    flex-direction: column; /* Empilha os itens */
+    height: auto;
+    flex-direction: column;
     gap: 1rem;
     padding: 1rem;
   }
 
-  /* --- Ajustes no Banner "Quem Sou" --- */
   .banner-quem-sou {
-    height: 25rem; /* Diminui a altura do banner */
-    text-align: center; /* Centraliza o texto */
+    height: 25rem;
+    text-align: center;
     margin-bottom: 0;
-    
   }
 
   .banner-quem-sou h1 {
-    font-size: 2rem; /* Diminui a fonte do título */
-    padding-right: 0; /* REMOVE o padding que quebrava o layout */
-
+    font-size: 2rem;
+    padding-right: 0;
   }
 
   /* --- Ajustes no Layout de Duas Colunas --- */
   .duas-colunas {
-    flex-direction: column; /* A mágica acontece aqui: empilha as colunas */
+    flex-direction: column;
     gap: 2rem;
     margin: 2rem 0;
   }
 
   .coluna-texto {
-    font-size: 1.1rem; /* Ajusta o tamanho do texto para melhor leitura */
+    font-size: 1.1rem;
     text-align: justify;
   }
 
   /* --- Ajustes Gerais de Espaçamento --- */
   .centralizado {
-    padding: 0 1rem; /* Menos espaçamento lateral */
+    padding: 0 1rem;
   }
 
   /* --- Ajustes no Rodapé (Footer) --- */
   #footer {
-    flex-direction: column; /* Empilha os itens do rodapé */
-    text-align: center; /* Centraliza tudo */
+    flex-direction: column;
+    text-align: center;
     gap: 2rem;
   }
 
   .footer-left,
   .footer-right {
-    text-align: center; /* Garante o alinhamento central */
-    flex-basis: 100%; /* Faz ocupar a largura toda */
+    text-align: center;
+    flex-basis: 100%;
   }
 
   .footer-center {
-    order: 3; /* Mantém o copyright por último */
+    order: 3;
   }
 
   .footer-links {
-    padding-left: 0; /* Remove o espaçamento da lista */
-    list-style: none; /* Remove os marcadores/bolinhas */
+    padding-left: 0;
+    list-style: none;
   }
 
   .footer-links li {
-    margin-bottom: 0.5rem; /* Espaçamento entre os links */
+    margin-bottom: 0.5rem;
   }
 
   .footer-right img {
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto;
   }
 }

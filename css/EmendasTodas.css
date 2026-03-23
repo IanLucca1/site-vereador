@@ -75,7 +75,6 @@ table {
   background-color: #fff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
-  /* A propriedade 'overflow: hidden' foi movida para .tabela-wrapper para funcionar com o novo layout */
 }
 
 .tabela-wrapper {
@@ -110,7 +109,7 @@ tbody tr:last-of-type {
 }
 
 tbody tr:hover {
-  background-color: #f0f8ff; /* Um azul bem clarinho */
+  background-color: #f0f8ff;
 }
 
 tbody {
@@ -119,15 +118,13 @@ tbody {
   overflow-y: auto;
 }
 
-/* 2. Força o cabeçalho e as linhas do corpo a se comportarem como uma tabela para manter o alinhamento */
 thead,
 tbody tr {
   display: table;
   width: 100%;
-  table-layout: fixed; /* Força as colunas a respeitarem a largura definida */
+  table-layout: fixed;
 }
 
-/* 3. Define larguras fixas para cada coluna para garantir o alinhamento perfeito */
 th:nth-child(1),
 td:nth-child(1) {
   width: 25%;
@@ -146,9 +143,6 @@ td:nth-child(4) {
   text-align: center;
 } /* Coluna "Status" */
 
-
-
-
 /* --- ESTILOS DOS "STATUS" --- */
 .status {
   padding: 6px 12px;
@@ -156,13 +150,13 @@ td:nth-child(4) {
   font-size: 0.85rem;
   font-weight: 500;
   color: #fff;
-  display: inline-flex; /* melhor que inline-block */
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 100%; /* não deixa vazar */
-  white-space: normal; /* permite quebrar linha */
-  min-width: 0; /* remove trava de 90px */
+  max-width: 100%;
+  white-space: normal;
+  min-width: 0;
 }
 
 .status.concluída {
@@ -182,7 +176,6 @@ td:nth-child(4) {
 }
 
 @media (max-width: 600px) {
-  /* desliga o modo "tbody block" que espreme tudo */
   tbody {
     display: table-row-group;
     max-height: none;
@@ -196,9 +189,8 @@ td:nth-child(4) {
     table-layout: auto;
   } */
 
-  /* em vez de encolher, deixa rolar pro lado */
   table {
-    min-width: 680px; /* ajuste conforme seu conteúdo */
+    min-width: 680px;
   }
 
   th,

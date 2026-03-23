@@ -28,7 +28,6 @@
   gap: 1rem;
 }
 
-/* destaque do primeiro link (logo) */
 #links-principais a:nth-of-type(1) {
   color: var(--azul-escuro);
   font-weight: 900;
@@ -146,11 +145,10 @@
   transform: translateY(-2px);
 }
 
-/* setas do carrossel simples (← →) */
 #prev,
 #next {
   position: absolute;
-  top: 90%;
+  top: 50%;
   transform: translateY(-50%);
   background: var(--azul-seta);
   border: none;
@@ -230,7 +228,6 @@
   color: var(--primario);
 }
 
-/* TEXTO: clamp 4 linhas (sem duplicação) */
 .novidade-card p {
   font-size: 15px;
   color: var(--texto);
@@ -332,7 +329,6 @@
   font-size: 1.1em;
 }
 
-/* hover (transition no .card, não aqui) */
 .card.dark:hover {
   background: #00b1a9;
   transform: scale(1.05);
@@ -345,7 +341,6 @@
   cursor: pointer;
 }
 
-/* links envolvendo cards */
 .card-link {
   display: block;
   text-decoration: none;
@@ -355,9 +350,6 @@
   height: 100%;
 }
 
-/* Se quiser manter um hover extra “forte” no link, deixei,
-   mas ele pode conflitar com o scale(1.05) da .card.
-   Se ficar exagerado, apaga esse bloco abaixo. */
 .card-link .card:hover {
   transform: scale(1.1);
   transition: 1s ease;
@@ -377,6 +369,14 @@
 @media (max-width: 1270px) {
   .novidade-card {
     min-height: 23rem;
+  }
+}
+
+/* <= 1200px */
+@media (max-width: 1200px) {
+  #prev,
+  #next {
+    top: 88%;
   }
 }
 
@@ -464,20 +464,20 @@
 
   .carousel {
     height: auto;
-    min-height: 0; /* <-- remove o buraco branco */
-    background: var(--azul-escuro); /* <-- garante fundo azul mesmo se variar */
-    padding-bottom: 60px; /* <-- espaço pras setas ficarem dentro */
+    min-height: 0;
+    background: var(--azul-escuro);
+    padding-bottom: 60px;
   }
 
   .slide {
-    height: auto; /* <-- para de depender de 100% */
+    height: auto;
     min-height: 0;
-    background-color: transparent; /* fundo agora é da .carousel */
+    background-color: transparent;
   }
 
   #prev,
   #next {
-    top: 85%; /* ou 55% */
+    top: 85%;
     transform: translateY(-50%);
   }
 
