@@ -194,6 +194,9 @@ body {
 .area-card[data-area="cultura"] {
   --accent: #8e24aa;
 }
+.area-card[data-area="meio-ambiente"] {
+  --accent: #0b5025;
+}
 
 .img-container {
   position: relative;
