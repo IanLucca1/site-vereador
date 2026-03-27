@@ -2,21 +2,21 @@
   {
     "ano": 2025,
     "beneficiario": "Rua Dido - entre as Ruas Libia e Virgilio",
-    "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via publica",
+    "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via pública",
     "valor": 611000,
     "status": "Em Preparação"
   },
   {
     "ano": 2025,
     "beneficiario": "Rua Rio Petropolis, no Bairro Pindorama",
-    "objeto": "Reforço orçamentario para realizar a pavimentação da rua. ",
+    "objeto": "Reforço orçamentário para realizar a pavimentação da rua. ",
     "valor": 300000,
     "status": "Em Preparação"
   },
   {
     "ano": 2025,
     "beneficiario": "Rua João Gomide Leite, no Bairro Pindorama",
-    "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via publica",
+    "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via pública",
     "valor": 398000,
     "status": "Em Preparação"
   },
@@ -30,7 +30,7 @@
   {
     "ano": 2025,
     "beneficiario": "Programa Campos de Várzea",
-    "objeto": "Reforço orçamentario para a execução do programa Campos de Várzea",
+    "objeto": "Reforço orçamentário para a execução do programa Campos de Várzea",
     "valor": 391000,
     "status": "Em Preparação"
   },
@@ -78,7 +78,7 @@
   },
   {
     "ano": 2024,
-    "beneficiario": "Unidadde de Pronto Atendimento Pampulha",
+    "beneficiario": "Unidade de Pronto Atendimento Pampulha",
     "objeto": "Manutenções necessárias na Unidade de Pronto Atendimento Pampulha",
     "valor": 200000,
     "status": "Em Preparação"
@@ -156,7 +156,7 @@
   {
     "ano": 2024,
     "beneficiario": "Rua Macarena, nº 400, Pindorama",
-    "objeto": "Criação de hortas comunitárias é a pratica de compostagem de resíduos orgânicos.",
+    "objeto": "Criação de hortas comunitárias e a pratica de compostagem de resíduos orgânicos.",
     "valor": 100000,
     "status": "Em Execução"
   },
@@ -205,7 +205,7 @@
   {
     "ano": 2024,
     "beneficiario": "Creche Comunitária Eunice Lanza, Pindorama",
-    "objeto": "Contrução de playground  no Ciame Pindorama",
+    "objeto": "Construção de playground  no Ciame Pindorama",
     "valor": 100000,
     "status": "Em Execução"
   },
