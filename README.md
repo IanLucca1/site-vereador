@@ -1,4 +1,4 @@
-# Site do Vereador José Ferreira (Versão Teste)
+# Site do Vereador José Ferreira (Versão 1.0)
 
 ## 🎯 Sobre o Projeto
 
@@ -36,4 +36,4 @@ Por ser um projeto front-end estático, não há necessidade de instalação.
 2.  Abra o arquivo `index.html` em qualquer navegador de internet.
 
 ---
-*Este projeto está em desenvolvimento.*
+*Este projeto está em fase de lançamento.*
