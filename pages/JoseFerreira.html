@@ -1,19 +1,7 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      gtag("consent", "default", {
-        ad_storage: "denied",
-        ad_user_data: "denied",
-        ad_personalization: "denied",
-        analytics_storage: "denied",
-      });
-    </script>
+    <script src="../js/dadosCookies.js"></script>
 
     <script
       async
@@ -27,7 +15,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../img/img_Jose.jpg" type="image/png" />
+    <link rel="icon" href="../img/fotos/img_Jose.jpg" type="image/png" />
     <link rel="stylesheet" href="" />
 
     <link rel="stylesheet" href="../css/header.css" />
@@ -297,37 +285,7 @@
       <button id="accept-cookies" class="btn-cookie">Entendi e Aceito</button>
     </div>
 
-    <script>
-      const consent = localStorage.getItem("lgpd-aceito");
-
-      // Se já aceitou antes, libera analytics automaticamente
-      if (consent === "true") {
-        gtag("consent", "update", {
-          ad_storage: "denied",
-          ad_user_data: "denied",
-          ad_personalization: "denied",
-          analytics_storage: "granted",
-        });
-      } else {
-        // Se ainda não decidiu, mostra o banner
-        document.getElementById("cookie-banner").style.display = "flex";
-      }
-
-      document
-        .getElementById("accept-cookies")
-        .addEventListener("click", function () {
-          localStorage.setItem("lgpd-aceito", "true");
-
-          gtag("consent", "update", {
-            ad_storage: "denied",
-            ad_user_data: "denied",
-            ad_personalization: "denied",
-            analytics_storage: "granted",
-          });
-
-          document.getElementById("cookie-banner").style.display = "none";
-        });
-    </script>
+    <script src="../js/cookies.js"></script>
+    <script src="../js/menu.js"></script>
   </body>
-  <script src="../js/menu.js"></script>
 </html>

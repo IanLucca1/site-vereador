@@ -1,24 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
-   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+    <script src="../js/dadosCookies.js"></script>
 
-  gtag("consent","default",{
-    ad_storage:"denied",
-    ad_user_data:"denied",
-    ad_personalization:"denied",
-    analytics_storage:"denied"
-  });
-</script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VVZPVGZQXN"
+    ></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVZPVGZQXN"></script>
-
-<script>
-  gtag("js", new Date());
-  gtag("config","G-VVZPVGZQXN",{ anonymize_ip:true });
-</script>
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-VVZPVGZQXN", { anonymize_ip: true });
+    </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -90,36 +83,7 @@
       <button id="accept-cookies" class="btn-cookie">Entendi e Aceito</button>
     </div>
 
-    <script>
-  const consent = localStorage.getItem("lgpd-aceito");
-
-  // Se já aceitou antes, libera analytics automaticamente
-  if (consent === "true") {
-    gtag("consent", "update", {
-      ad_storage: "denied",
-      ad_user_data: "denied",
-      ad_personalization: "denied",
-      analytics_storage: "granted",
-    });
-  } else {
-    // Se ainda não decidiu, mostra o banner
-    document.getElementById("cookie-banner").style.display = "flex";
-  }
-
-  document.getElementById("accept-cookies").addEventListener("click", function () {
-    localStorage.setItem("lgpd-aceito", "true");
-
-    gtag("consent", "update", {
-      ad_storage: "denied",
-      ad_user_data: "denied",
-      ad_personalization: "denied",
-      analytics_storage: "granted",
-    });
-
-    document.getElementById("cookie-banner").style.display = "none";
-  });
-</script>
-
+    <script src="../js/cookies.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="../js/projetos.js"></script>
   </body>
