@@ -1,132 +1,177 @@
-[
 
-  {
-    "titulo": "Visita ao Comissao Especial",
-    "imagem": "../img/ComissaoEspecial/comissaoEspecial.jpg"
-  },
-
-  {
-    "titulo": "Visita ao Comissao Especial",
-    "imagem": "../img/ComissaoEspecial/teste3.jpg"
-  },
-
-
-  {
-    "titulo": "Visita ao CS BomJesus",
-    "imagem": "../img/CS_BomJesus/bomJesus1.jpg"
+  [
+    {
+    "titulo": "Visita ao CS Bom Sucesso",
+    "imagem": "../img/regionalBarreiro/cs_Bonsucesso.jpg"
   },
   {
-    "titulo": "Visita ao CS BomJesus",
-    "imagem": "../img/CS_BomJesus/bomJesus2.jpg"
+    "titulo": "Visita ao CS Eduardo Araujo",
+    "imagem": "../img/regionalBarreiro/cs_EduardoAruajo.jpg"
   },
   {
-    "titulo": "Visita ao CS BomJesus",
-    "imagem": "../img/CS_BomJesus/bomJesus3.jpg"
-  },
-  { "titulo": "Visita ao CS BomJesus", "imagem": "../img/CS_BomJesus/teste1.jpg" },
-
-
-  {
-    "titulo": "Visita ao CS California",
-    "imagem": "../img/CS_California/california1.jpg"
-  },
-  {
-    "titulo": "Visita ao CS California",
-    "imagem": "../img/CS_California/california2.jpg"
-  },
-  {
-    "titulo": "Visita ao CS California",
-    "imagem": "../img/CS_California/california3.jpg"
-  },
-  {
-    "titulo": "Visita ao CS California",
-    "imagem": "../img/CS_California/teste2.jpg"
+    "titulo": "Visita ao CS Calores Renato",
+    "imagem": "../img/regionalBarreiro/csCalorsRenato.jpg"
   },
 
   {
-    "titulo": "Visita ao CS DomCabral",
-    "imagem": "../img/CS_DomCabral/domCabral1.jpg"
+    "titulo": "Visita ao CS Nossa Senhora de Fátima",
+    "imagem": "../img/regionalCentroSul/cs_NossaSenhoraFatima.jpg"
+  },
+ 
+  {
+    "titulo": "Visita ao CS Santa Lúcia",
+    "imagem": "../img/regionalCentroSul/cs_SantaLucia.jpg"
   },
   {
-    "titulo": "Visita ao CS DomCabral",
-    "imagem": "../img/CS_DomCabral/domCabral2.jpg"
-  },
-  {
-    "titulo": "Visita ao CS DomCabral",
-    "imagem": "../img/CS_DomCabral/teste5.jpg"
-  },
-  {
-    "titulo": "Visita ao CS DomCabral",
-    "imagem": "../img/CS_DomCabral/teste6.jpg"
-  },
-  {
-    "titulo": "Visita ao CS DomCabral",
-    "imagem": "../img/CS_DomCabral/domCabral3.jpg"
+    "titulo": "Visita ao CS São Miguel",
+    "imagem": "../img/regionalCentroSul/cs_SaoMiguel.jpg"
   },
 
 
   {
-    "titulo": "Visita ao CS Ermelinda",
-    "imagem": "../img/CS_Ermelinda/Ermelinda1.jpg"
+    "titulo": "Visita ao CS Alto Vera Cruz",
+    "imagem": "../img/regionalLeste/cs_AltoVeraCruz.jpg"
   },
   {
-    "titulo": "Visita ao CS Ermelinda",
-    "imagem": "../img/CS_Ermelinda/Ermelinda2.jpg"
+    "titulo": "Visita ao CS Boa Vista",
+    "imagem": "../img/regionalLeste/cs_BoaVista.jpg"
   },
   {
-    "titulo": "Visita ao CS Ermelinda",
-    "imagem": "../img/CS_Ermelinda/Ermelinda3.jpg"
+    "titulo": "Visita ao CS Granja de Freitas",
+    "imagem": "../img/regionalLeste/cs_GranjaFreitas.jpg"
   },
   {
-    "titulo": "Visita ao CS Ermelinda",
-    "imagem": "../img/CS_Ermelinda/teste4.jpg"
+    "titulo": "Visita ao CS Santa Inês",
+    "imagem": "../img/regionalLeste/cs_SantaInes.jpg"
   },
   {
-    "titulo": "Visita ao CS Ermelinda",
-    "imagem": "../img/CS_Ermelinda/Ermelinda4.jpg"
+    "titulo": "Visita ao CS Vera Cruz",
+    "imagem": "../img/regionalLeste/cs_VeraCruz.jpg"
   },
 
+  {
+    "titulo": "Visita ao CS Cachoeirinha",
+    "imagem": "../img/regionalNordeste/cs_Cachoerinha.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Dom Joaquim",
+    "imagem": "../img/regionalNordeste/cs_DomJoaquim.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Nazaré",
+    "imagem": "../img/regionalNordeste/cs_Nazare.jpg"
+  },
+  {
+    "titulo": "Visita ao CS São Marcos",
+    "imagem": "../img/regionalNordeste/cs_SaoMarcos.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Vila Maria",
+    "imagem": "../img/regionalNordeste/cs_VilaMaria.jpg"
+  },
 
   {
-    "titulo": "39ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude.jpg"
+    "titulo": "Visita ao CS Dom Cabral",
+    "imagem": "../img/regionalNoroeste/cs_DomCabral.jpg"
   },
   {
-    "titulo": "39ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude2.jpg"
+    "titulo": "Visita ao CS Glória",
+    "imagem": "../img/regionalNoroeste/cs_Gloria.jpg"
   },
   {
-    "titulo": "38ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude3.jpg"
+    "titulo": "Visita ao CS Jardim Filadélfia",
+    "imagem": "../img/regionalNoroeste/cs_JardimFiladelifa.jpg"
   },
   {
-    "titulo": "34ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude4.jpg"
+    "titulo": "Visita ao CS João Pinheiro",
+    "imagem": "../img/regionalNoroeste/cs_JoaoPinheiro.jpg"
   },
   {
-    "titulo": "25ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude5.jpg"
+    "titulo": "Visita ao CS Pindorama",
+    "imagem": "../img/regionalNoroeste/cs_Pindorama.jpg"
   },
-  {
-    "titulo": "Audiência para apresentar relatório detalhado referente ao 3º quadrimestre de 2025",
-    "imagem": "../img/comissaoSaude/comissaoSaude6.jpg"
-  },
-  {
-    "titulo": "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    "imagem": "../img/comissaoSaude/comissaoSaude7.jpg"
-  },
-  {
-    "titulo": "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    "imagem": "../img/comissaoSaude/comissaoSaude8.jpg"
-  },
-  {
-    "titulo": "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    "imagem": "../img/comissaoSaude/comissaoSaude9.jpg"
 
+  {
+    "titulo": "Visita ao CS Campo Alegre",
+    "imagem": "../img/regionalNorte/cs_CampoAlegre.jpg"
   },
   {
-    "titulo": "5ª Reunião Ordinária - Comissão de Saúde e Saneamento - 2026",
-    "imagem": "../img/comissaoSaude/comissaoSaude10.jpg"
+    "titulo": "Visita ao CS Jardim Guanabara",
+    "imagem": "../img/regionalNorte/cs_JadimGuanabara.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Primeiro de Maio",
+    "imagem": "../img/regionalNorte/cs_PrimeiroMaio.jpg"
+  },
+  {
+    "titulo": "Visita ao CS São Bernardo",
+    "imagem": "../img/regionalNorte/cs_SaoBernado.jpg"
+  },
+  {
+    "titulo": "Visita ao CS São Tomás",
+    "imagem": "../img/regionalNorte/cs_SaoTomas.jpg"
+  },
+
+  {
+    "titulo": "Visita ao CS Palmeiras",
+    "imagem": "../img/regionalOeste/cs_Palmeiras.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Santa Maria",
+    "imagem": "../img/regionalOeste/cs_SantaMaria.jpg"
+  },
+  {
+    "titulo": "Visita ao CS São Jorge",
+    "imagem": "../img/regionalOeste/cs_SaoJorge.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Vila Imperial",
+    "imagem": "../img/regionalOeste/cs_VilaImperial.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Waldomiro Lobo",
+    "imagem": "../img/regionalOeste/cs_WaldomoriLobo.jpg"
+  },
+
+  {
+    "titulo": "Visita ao CS Santa Amélia",
+    "imagem": "../img/regionalPampulha/cs_SantaAmelia.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Santa Rosa",
+    "imagem": "../img/regionalPampulha/cs_SantaRosa.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Santa Terezinha",
+    "imagem": "../img/regionalPampulha/cs_SantaTerezinha.jpg"
+  },
+  {
+    "titulo": "Visita ao CS São José",
+    "imagem": "../img/regionalPampulha/cs_SaoJose.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Confisco",
+    "imagem": "../img/regionalPampulha/csConfisco.jpg"
+  },
+
+  {
+    "titulo": "Visita ao CS Copacabana",
+    "imagem": "../img/regionalVendaNova/cs_Copacabana.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Rio Branco",
+    "imagem": "../img/regionalVendaNova/cs_RioBranco.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Santa Mônica",
+    "imagem": "../img/regionalVendaNova/cs_SantaMonica.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Santo Antônio",
+    "imagem": "../img/regionalVendaNova/cs_SantoAntonio.jpg"
+  },
+  {
+    "titulo": "Visita ao CS Venda Nova",
+    "imagem": "../img/regionalVendaNova/cs_VendaNova.jpg"
   }
-
 ]
