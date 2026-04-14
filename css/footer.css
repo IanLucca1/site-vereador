@@ -114,6 +114,20 @@
   transform: scale(1.05);
 }
 
+#desenvolvido {
+  text-decoration: none;
+  color: #e6eefc;
+  display: inline-block;
+  transition:
+  transform 0.3s ease,
+  color 0.3s ease;
+}
+#desenvolvido:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: #4cd137;
+}
+
 /* Responsivo para celular */
 @media (max-width: 768px) {
   .cookie-banner {
