@@ -1,15 +1,16 @@
 [
+
   {
     "ano": 2025,
     "beneficiario": "Rua Dido - entre as Ruas Libia e Virgilio",
     "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via pública",
     "valor": 611000,
-    "status": "Em Preparação"
+    "status": "Concluída"
   },
   {
     "ano": 2025,
     "beneficiario": "Rua Rio Petropolis, no Bairro Pindorama",
-    "objeto": "Reforço orçamentário para realizar a pavimentação da rua. ",
+    "objeto": "Reforço orçamentário para realizar a pavimentação da rua.",
     "valor": 300000,
     "status": "Em Preparação"
   },
@@ -18,7 +19,7 @@
     "beneficiario": "Rua João Gomide Leite, no Bairro Pindorama",
     "objeto": "Reforço para a execução de serviços para realizar a pavimentação da via pública",
     "valor": 398000,
-    "status": "Em Preparação"
+    "status": "Concluída"
   },
   {
     "ano": 2025,
@@ -32,14 +33,14 @@
     "beneficiario": "Programa Campos de Várzea",
     "objeto": "Reforço orçamentário para a execução do programa Campos de Várzea",
     "valor": 391000,
-    "status": "Em Preparação"
+    "status": "Concluída"
   },
   {
     "ano": 2025,
     "beneficiario": "Quadra situada na Rua Beco Flor de Prímula, 220 - Pindorama",
     "objeto": "Reforço de dotação orçamentária para a manutenção da quadra",
     "valor": 400000,
-    "status": "Em Preparação"
+    "status": "Concluída"
   },
   {
     "ano": 2025,
@@ -53,7 +54,7 @@
     "beneficiario": "UPA Nordeste",
     "objeto": "Manutenções necessárias na UPA Nordeste",
     "valor": 50000,
-    "status": "Concluída"
+    "status": "Em Preparação"
   },
   {
     "ano": 2024,
@@ -81,7 +82,7 @@
     "beneficiario": "Unidade de Pronto Atendimento Pampulha",
     "objeto": "Manutenções necessárias na Unidade de Pronto Atendimento Pampulha",
     "valor": 200000,
-    "status": "Em Preparação"
+    "status": "Em execução"
   },
   {
     "ano": 2024,
@@ -158,7 +159,7 @@
     "beneficiario": "Rua Macarena, nº 400, Pindorama",
     "objeto": "Criação de hortas comunitárias e a pratica de compostagem de resíduos orgânicos.",
     "valor": 100000,
-    "status": "Em Execução"
+    "status": "Em Preparação"
   },
   {
     "ano": 2024,
