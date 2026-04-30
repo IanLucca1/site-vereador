@@ -29,7 +29,7 @@ function popularCarrosselCamera(seletorSwiper, dados) {
 let novidadesSwiper;
 
 async function carregarNoticias() {
-  const res = await fetch('../json/noticiasCamara.json');
+  const res = await fetch('/json/noticiasCamara.json');
   const NoticiasCamera = await res.json();
 
   // 1. Popula os slides PRIMEIRO
