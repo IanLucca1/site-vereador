@@ -1,5 +1,5 @@
 async function carregarGaleria() {
-  const res = await fetch('../json/GaleriaVereador.json');
+  const res = await fetch('/json/GaleriaVereador.json');
   const fotos = await res.json();
   
 

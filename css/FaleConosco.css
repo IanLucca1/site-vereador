@@ -208,8 +208,8 @@ form textarea:focus {
     height: 40px;
   }
   .action-btn img {
-    width: 22px;
-    height: 22px;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
