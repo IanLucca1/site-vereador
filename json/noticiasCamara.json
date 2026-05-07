@@ -1,5 +1,20 @@
 [
   {
+    "data": "07/05/2026",
+    "titulo": "🧠 Audiência debate saúde mental materna no SUS-BH",
+    "descricao": "Especialistas defenderam mais assistência psicológica para gestantes e puérperas na rede pública. José Ferreira destacou que grande parte dos casos de depressão perinatal pode ser prevenida com rede de apoio e acompanhamento adequado.",
+    "imagem": "https://placehold.co/400x200/ff69b4/FFFFFF?text=Saude+Mental+Materna",
+    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/especialistas-defendem-assist%C3%AAncia-psicol%C3%B3gica-especializada-antes-e"
+  },
+
+  {
+    "data": "04/05/2026",
+    "titulo": "📑 Comissão vai analisar execução de emendas impositivas",
+    "descricao": "A Câmara de BH aprovou a criação de comissão especial para fiscalizar atrasos na execução de emendas impositivas pela Prefeitura. José Ferreira está entre os vereadores autores do requerimento.",
+    "imagem": "https://placehold.co/400x200/0d6efd/FFFFFF?text=Emendas+Impositivas",
+    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/parlamentares-criam-comiss%C3%A3o-para-analisar-execu%C3%A7%C3%A3o-de-emendas"
+  },
+  {
     "data": "Abr 30, 2026",
     "titulo": "José Ferreira assina pedido para comissão sobre emendas 💼📊",
     "text": "José Ferreira é um dos vereadores que assinam requerimento para criação de comissão especial que vai analisar atrasos na execução de emendas impositivas pela Prefeitura de BH.",
@@ -82,20 +97,6 @@
     "titulo": "José Ferreira cobra atenção para falta de insumos na saúde 🏥⚠️",
     "text": "Durante audiência de prestação de contas do SUS-BH, José Ferreira reforçou a necessidade de atenção à falta de insumos nas unidades básicas. O vereador destacou que identificou o problema durante visitas a centros de saúde.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/03/secretaria-confirma-dificuldades-mas-destaca-avan%C3%A7os-conquistados-em",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "Mar 03, 2026",
-    "titulo": "José Ferreira convoca prestação de contas do SUS-BH 🏥📊",
-    "text": "Como presidente da Comissão de Saúde, José Ferreira solicitou audiência para prestação de contas do SUS-BH referente ao último quadrimestre de 2025. A reunião irá detalhar investimentos, serviços prestados e indicadores da saúde pública.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/03/presta%C3%A7%C3%A3o-de-contas-do-sus-bh-ser%C3%A1-realizada-nesta-quarta-feira-4",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "Fev 25, 2026",
-    "titulo": "José Ferreira propõe controle de acesso em novo Centro de Saúde 🏥🔒",
-    "text": "Na audiência sobre o novo Centro de Saúde da Serra, José Ferreira questionou a implementação de controle de acesso na unidade. A medida visa reforçar a segurança e proteger os profissionais de saúde.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/02/projeto-de-novo-centro-de-sa%C3%BAde-no-bairro-serra-%C3%A9-apresentado-pelo",
     "linkname": "Leia a matéria completa"
   }
 ]
