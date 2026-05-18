@@ -33,6 +33,7 @@
   font-size: 1.1rem;
   padding: 0.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
+  text-align: center;
 }
 
 #menu-nav a:hover {
