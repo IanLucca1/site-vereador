@@ -37,11 +37,14 @@ async function carregarEmendas() {
   const todasAsEmendas = dados;
 
 // 1. Filtra as emendas por ano
+  const emendas2026 = todasAsEmendas.filter((e) => e.ano === 2026);
   const emendas2025 = todasAsEmendas.filter((e) => e.ano === 2025);
   const emendas2024 = todasAsEmendas.filter((e) => e.ano === 2024);
   const emendas2023 = todasAsEmendas.filter((e) => e.ano === 2023);
+  
 
 // 2. Chama a função para popular cada tabela com os dados filtrados
+  popularTabela(2026, emendas2026);
   popularTabela(2025, emendas2025);
   popularTabela(2024, emendas2024);
   popularTabela(2023, emendas2023);

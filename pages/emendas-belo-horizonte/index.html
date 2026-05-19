@@ -15,7 +15,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/img/fotos/img_Jose.jpg" type="image/png" />
+    <link rel="icon" href="/img/fotos/img_Jose.webp" type="image/png" />
     <title>Tabela de Emendas - Vereador José Ferreira</title>
     <link rel="stylesheet" href="/css/EmendasTodas.css" />
     <link rel="stylesheet" href="/css/emendas.css" />
@@ -38,11 +38,47 @@
       <a href="#ano-2023" class="btn">Ver Emendas de 2023</a>
       <a href="#ano-2024" class="btn">Ver Emendas de 2024</a>
       <a href="#ano-2025" class="btn">Ver Emendas de 2025</a>
+      <a href="#ano-2026" class="btn">Ver Emendas de 2026</a>
     </nav>
 
     <main class="container-tabelas">
-      <section id="ano-2025" class="secao-ano">
-        <h2>Acompanhamento das Emendas Destinadas de 2024/2025</h2>
+
+      <section id="ano-2026" class="secao-ano">
+        <h2>Acompanhamento das Emendas Destinadas de 2025/2026</h2>
+        <div class="tabela-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Beneficiário</th>
+                <th>Objeto da Emenda</th>
+                <th
+                  class="header-sortable"
+                  data-column-index="2"
+                  data-sort-type="number"
+                  data-target-tbody="tbody-2026"
+                  style="cursor: pointer"
+                >
+                  Valor &#x25BC;
+                </th>
+                <th
+                  class="header-sortable"
+                  data-column-index="3"
+                  data-sort-type="status"
+                  data-target-tbody="tbody-2026"
+                  style="cursor: pointer"
+                >
+                  Status &#x25BC;
+                </th>
+              </tr>
+            </thead>
+
+            <tbody id="tbody-2026"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="ano-2026" class="secao-ano">
+        <h2>Acompanhamento das Emendas Destinadas de 2025/2026</h2>
         <div class="tabela-wrapper">
           <table>
             <thead>

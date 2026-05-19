@@ -1,4 +1,326 @@
 [
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Coqueiros",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Pindorama Elza Martins",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Jardim Filadélfia",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Dom Bosco",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Califórnia",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 120950,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Padre Eustáquio",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Dom Cabral",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde João Pinheiro",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Jardim Filadélfia",
+    "objeto": "Substituição e instalação de toldo - Modernização da Atenção Primária na Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Glória",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Metropolitano Odilon Behrens (HOB)",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 366000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Alberto Cavalcanti",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Sofia Feldman",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 100000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Risoleta Tolentino Neves",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Santa Casa de Belo Horizonte",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Evangélico de Belo Horizonte",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Associação Mário Penna",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 185000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Complexo Hospitalar São Francisco",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 200000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital da Baleia",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 200000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Universitário Ciências Médicas",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 100000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Hospital Paulo de Tarso",
+    "objeto": "Reforço de dotação orçamentária - Gestão da Rede Contratada",
+    "valor": 250000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Centro de Saúde Jardim Felicidade",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 100000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Feiras livres (infraestrutura)",
+    "objeto": "Reforço para execução de serviços de apoio à infraestrutura das feiras, com transporte, montagem de barracas e atrações culturais",
+    "valor": 100000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Jornada Pascoal",
+    "objeto": "Realização da Jornada Pascoal - Desenvolvimento e Promoção do Turismo",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Associação Cultural Cine Teatro Popular (CNPJ: 38.659.180/0001-90)",
+    "objeto": "Realização de atividades culturais de caráter comunitário - Democratização das Artes e da Cultura",
+    "valor": 89755,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Associação de Veteranos do Brasil - AVEBRA (CNPJ: 51.832.777/0001-53)",
+    "objeto": "Realização de atividades culturais e de caráter comunitário - Democratização das Artes e da Cultura",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Grupo da Terceira Idade Raio de Sol (CNPJ: 03.615.836/0001-99)",
+    "objeto": "Realização de atividades esportivas, de lazer e de saúde comunitário - Promoção de Eventos Esportivos e de Lazer",
+    "valor": 130000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Prensas Solidárias (CNPJ: 26.640.595/0001-33)",
+    "objeto": "Promoção do Esporte, atividades físicas e do Lazer - Prensas Solidárias",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Conselho Nacional dos Profissionais da Beleza - CNPB (CNPJ: 31.963.731/0001-66)",
+    "objeto": "Ações de Qualificação, Profissionalização e Emprego do CNPB",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Associação dos Ex Atletas do Villa Nova Atlético Clube (CNPJ: 31.326.763/0001-50)",
+    "objeto": "Realização de atividades voltadas ao desenvolvimento e ampliação dos serviços sociais - Promoção de Eventos Esportivos e de Lazer",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Federação Mineira de Carrinhos de Rolimã (CNPJ: 40.566.151/0001-26)",
+    "objeto": "Realização de atividades voltadas ao desenvolvimento e ampliação dos serviços sociais - Promoção de Eventos Esportivos e de Lazer",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Secretaria de Governo",
+    "objeto": "Reforço de dotação orçamentária - Serviços Administrativos e Financeiros",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Inclusão Digital - PBH (Programa 302, Ação 2938)",
+    "objeto": "Certificação de cursos de tecnologia - Inclusão, Empreendedorismo e Inovação Digital",
+    "valor": 95000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Academia da Cidade Goiânia",
+    "objeto": "Reforço de dotação orçamentária - Fortalecimento da Atenção Primária à Saúde",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Beco da Amizade - Bairro Vila Coqueiral",
+    "objeto": "Obras de urbanização e regularização em assentamentos de interesse social",
+    "valor": 85000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Beco da Paz - Bairro Vila Coqueiral",
+    "objeto": "Obras de urbanização e regularização em assentamentos de interesse social",
+    "valor": 108000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Beco do Glória - Bairro Vila Coqueiral",
+    "objeto": "Obras de urbanização e regularização em assentamentos de interesse social",
+    "valor": 82000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Beco das Flores - Vila Coqueiral",
+    "objeto": "Obras de urbanização e regularização em assentamentos de interesse social",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Alecrim - Entre as Ruas Ametista e Alicedro, Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Alecrim no trecho situado entre as Ruas Ametista e Alicedro, incluindo o Escadão do Beco Flor de Prímula.",
+    "valor": 271195,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Alicedro - Entre as Ruas Flor de Alecrim e Carlos Eduardo Leite, Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Alicedro, entre as Ruas Flor de Alecrim e Carlos Eduardo Leite",
+    "valor": 217000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Padre Clóvis - entre Rua Padre Cornélio e nº 66 desta via, Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Padre Clóvis, no trecho situado entre o número 66 desta via e a Rua Padre Cornélio",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Padre Clóvis - entre nº 66 e Rua Muquiçaba, Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Padre Clóvis entre o número 66 e a Rua Muquiçaba",
+    "valor": 81000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Padre Cornélio - entre Rua Rio Petrópolis e Rua Raphael Salaberga Gaspar, Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Padre Cornélio, entre a Rua Raphael Salaberga Gaspar até o fim do trecho sem saída",
+    "valor": 137000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Horizonte - entre Rua Londrina e Rua Fluorina, Bairro Paraíso",
+    "objeto": "Reconstrução da via Rua Horizonte, entre a Rua Londrina e a Rua Fluorina, Bairro Paraíso",
+    "valor": 256000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Rua Regida - Bairro Pindorama",
+    "objeto": "Reconstrução da via Rua Caitité, entre as Ruas Faustino Cardoso e Berenice Prates",
+    "valor": 100000,
+    "status": "Em Preparação"
+  },
+  {
+    "ano": 2026,
+    "beneficiario": "Instalação de usina de energia fotovoltaica",
+    "objeto": "Instalação de usina de energia fotovoltaica - Ações de Qualificação, Profissionalização e Emprego",
+    "valor": 70000,
+    "status": "Em Preparação"
+  },
 
   {
     "ano": 2025,
