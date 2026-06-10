@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-       <script src="/js/dadosCookies.js"></script>
+    <script src="/js/dadosCookies.js"></script>
 
     <script
       async
@@ -61,8 +61,25 @@
           <p>
             Aqui você pode enviar suas demandas por e-mail, dúvidas ou sugestões
             pro Gabinete! Se tiver algo mais urgente, clique no ícone do
-            <strong><a href="https://wa.me/5531995112535" target="_blank" class="link" id="link_Wap">WhatsApp</a></strong> acima ou clique no nome. Para demandas complexas, use o
-            <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6UKDQnyWc7LIDfugHLE99AtTB2hX-ngwapGgIPl4GdVLBw/viewform?usp=publish-editor" class="link" target="_blank" id="link_Form">Formulário do Google</a></strong>.
+            <strong
+              ><a
+                href="https://wa.me/5531995112535"
+                target="_blank"
+                class="link"
+                id="link_Wap"
+                >WhatsApp</a
+              ></strong
+            >
+            acima ou clique no nome. Para demandas complexas, use o
+            <strong
+              ><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfQ6UKDQnyWc7LIDfugHLE99AtTB2hX-ngwapGgIPl4GdVLBw/viewform?usp=publish-editor"
+                class="link"
+                target="_blank"
+                id="link_Form"
+                >Formulário do Google</a
+              ></strong
+            >.
           </p>
         </div>
         <div class="imagem-container">
@@ -86,10 +103,10 @@
           method="POST"
           enctype="multipart/form-data"
         >
-          <input type="text" name="_honey" style="display:none">
+          <input type="text" name="_honey" style="display: none" />
 
           <input type="hidden" name="_subject" value="Novo Contato via Site" />
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_captcha" value="true" />
 
           <label for="titulo">Título / Assunto</label>
           <input
@@ -148,6 +165,43 @@
           window.history.back();
         }
       }
+    </script>
+
+    <script>
+      const form = document.querySelector("form");
+      const btn = document.querySelector(".btn-enviar");
+      const COOLDOWN = 60000; // 60 segundos
+
+      verificarCooldown();
+
+      function verificarCooldown() {
+        const ultimo = localStorage.getItem("ultimo_envio");
+        if (!ultimo) return;
+        const restante = COOLDOWN - (Date.now() - parseInt(ultimo));
+        if (restante > 0) bloquear(restante);
+      }
+
+      function bloquear(ms) {
+        btn.disabled = true;
+        const intervalo = setInterval(() => {
+          const seg = Math.ceil(
+            (COOLDOWN -
+              (Date.now() - parseInt(localStorage.getItem("ultimo_envio")))) /
+              1000,
+          );
+          if (seg <= 0) {
+            clearInterval(intervalo);
+            btn.disabled = false;
+            btn.textContent = "Enviar Mensagem";
+          } else {
+            btn.textContent = `Aguarde ${seg}s`;
+          }
+        }, 1000);
+      }
+
+      form.addEventListener("submit", () => {
+        localStorage.setItem("ultimo_envio", Date.now());
+      });
     </script>
   </body>
 </html>
