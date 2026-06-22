@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="icon" href="/img/fotos/img_Jose.jpg" type="image/png" />
     <title>Galeria de Fotos</title>
-    
   </head>
   <body>
     <header id="Header-Principal">
@@ -32,7 +31,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/img/redesSocias/instagram.png" alt="insta" class="img" />
+              <img
+                src="/img/redesSocias/instagram.png"
+                alt="insta"
+                class="img"
+              />
             </a>
           </li>
           <li>
@@ -41,12 +44,19 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/img/redesSocias/facebook.png" alt="facebook" class="img" />
+              <img
+                src="/img/redesSocias/facebook.png"
+                alt="facebook"
+                class="img"
+              />
             </a>
           </li>
           <li>
             <a href="https://wa.me/5531995112535" target="_blank"
-              ><img src="/img/redesSocias/whatsapp.png" alt="whatsapp" class="img"
+              ><img
+                src="/img/redesSocias/whatsapp.png"
+                alt="whatsapp"
+                class="img"
             /></a>
           </li>
         </ul>
@@ -84,8 +94,14 @@
       <!-- Conteúdo principal da página -->
       <section class="galeria-section">
         <div class="galeria-container">
-          <h2 class="galeria-titulo">Galeria de Fotos</h2>
+          <div id="galeria-tabs">
+            <h2 class="galeria-titulo" id="fotos">Galeria de Fotos</h2>
+            <h2 class="galeria-titulo" id="videos">Video do Yootube</h2>
+            <span class="tab-indicator"></span>
+          </div>
+
           <div class="galeria-grid" id="galeria"></div>
+          <div class="video-grid" id="video"></div>
         </div>
       </section>
     </main>
@@ -104,18 +120,18 @@
             <a href="/pages/CamaraBH/" class="Links">Câmara de BH</a>
           </li>
           <li>
-            <a href="/pages/Projeto/" class="Links"
-              >Principais Projetos</a
-            >
+            <a href="/pages/Projeto/" class="Links">Principais Projetos</a>
           </li>
-           <li>
+          <li>
             <a href="/pages/emendas/" class="Links">Emendas Parlamentares</a>
           </li>
           <li>
             <a href="/pages/Fale-Conosco/" class="Links">Fale Conosco</a>
           </li>
-           <li>
-            <a href="https://www.cmbh.mg.gov.br/node/add/lai" class="Links">Fale com Ouvidoria</a>
+          <li>
+            <a href="https://www.cmbh.mg.gov.br/node/add/lai" class="Links"
+              >Fale com Ouvidoria</a
+            >
           </li>
         </ul>
       </div>
@@ -133,8 +149,7 @@
       </figure>
     </footer>
 
-
-     <div id="cookie-banner" class="cookie-banner">
+    <div id="cookie-banner" class="cookie-banner">
       <div class="cookie-text">
         Este site utiliza cookies para garantir que você tenha a melhor
         experiência e para fins estatísticos (Google Analytics). Ao continuar
@@ -151,6 +166,8 @@
 
     <script src="/js/cookies.js"></script>
     <script src="/js/galeria.js"></script>
+    <script src="/js/galeriaTabs.js"></script>
+    <script src="/js/video.js"></script>
     <script src="/js/menu.js"></script>
   </body>
 </html>
