@@ -1,116 +1,65 @@
 [
-{
-  "data": "06/07/2026",
-  "titulo": "🩸 Projeto de José Ferreira sobre doação de células-tronco avança na Câmara",
-  "text": "O Plenário da Câmara Municipal de Belo Horizonte colocou em pauta o PL 586/2025, de autoria de José Ferreira, que cria o selo 'Instituição Amiga da Mulher Doadora de Células-Tronco, Cordão Umbilical e Placentário'. A proposta busca reconhecer instituições que incentivem a doação, ampliando a conscientização sobre um procedimento que pode contribuir para o tratamento de diversas doenças.",
-  "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/plen%C3%A1rio-decide-sobre-propostas-voltadas-ao-cuidado-e-%C3%A0-sa%C3%BAde-na-ter%C3%A7a-feira-7",
-  "linkname": "Leia a matéria completa"
-},
-{
-  "data": "03/07/2026",
-  "titulo": "📚 Reaproveitamento de material didático volta à pauta da Câmara de BH",
-  "text": "O Plenário da Câmara Municipal de Belo Horizonte colocou novamente em pauta o PL 824/2026, do qual José Ferreira é coautor. A proposta garante o reaproveitamento de materiais didáticos na educação infantil privada, buscando reduzir os custos para as famílias, evitar práticas abusivas na venda de materiais escolares e incentivar a sustentabilidade.",
-  "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/reaproveitamento-de-material-did%C3%A1tico-deve-ser-votado-em-definitivo-na-segunda",
-  "linkname": "Leia a matéria completa"
-},
   {
-  "data": "02/07/2026",
-  "titulo": "🛣️ José Ferreira debate melhorias e obras na BR-040",
-  "text": "Em audiência pública na Câmara de Belo Horizonte, José Ferreira participou do debate sobre as obras da BR-040, cobrando soluções para o trânsito na região Noroeste e defendendo a duplicação do viaduto do bairro Califórnia. O vereador também destacou a importância da criação de uma nova alça de retorno para atender os moradores da região e afirmou que irá atuar junto à Prefeitura para agilizar as intervenções previstas.",
-  "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/vereadores-questionam-fluxos-de-tr%C3%A2nsito-e-nova-al%C3%A7a-de-retorno-em-obras-na-br-040",
-  "linkname": "Leia a matéria completa"
-},
+    "data": "06/07/2026",
+    "titulo": "🩸 Projeto de José Ferreira sobre doação de células-tronco avança na Câmara",
+    "text": "José Ferreira apresentou o PL 586/2025, que cria o selo de reconhecimento para instituições que incentivem a doação de células-tronco, cordão umbilical e placenta.",
+    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/plen%C3%A1rio-decide-sobre-propostas-voltadas-ao-cuidado-e-%C3%A0-sa%C3%BAde-na-ter%C3%A7a-feira-7",
+    "linkname": "Leia a matéria completa"
+  },
+  {
+    "data": "03/07/2026",
+    "titulo": "📚 Reaproveitamento de material didático volta à pauta da Câmara de BH",
+    "text": "O PL 824/2026, do qual José Ferreira é coautor, voltou à pauta para votação definitiva. A proposta busca reduzir custos para as famílias e incentivar o reaproveitamento de materiais.",
+    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/reaproveitamento-de-material-did%C3%A1tico-deve-ser-votado-em-definitivo-na-segunda",
+    "linkname": "Leia a matéria completa"
+  },
+  {
+    "data": "02/07/2026",
+    "titulo": "🛣️ José Ferreira debate melhorias e obras na BR-040",
+    "text": "José Ferreira participou de audiência pública sobre as obras da BR-040, defendendo melhorias no trânsito e novos acessos para a região Noroeste.",
+    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/07/vereadores-questionam-fluxos-de-tr%C3%A2nsito-e-nova-al%C3%A7a-de-retorno-em-obras-na-br-040",
+    "linkname": "Leia a matéria completa"
+  },
   {
     "data": "30/06/2026",
     "titulo": "🛣️ Audiência vai debater obras da BR-040 na Grande BH",
-    "text": "A Câmara Municipal de Belo Horizonte realizará uma audiência pública para discutir as obras previstas no trecho da BR-040 próximo à capital. O encontro foi requerido pelos vereadores Braulio Lara e José Ferreira, com o objetivo de obter informações sobre o cronograma, os prazos e os impactos das intervenções da concessionária Via Cristais, que incluem ampliação da rodovia, novas vias marginais, passarelas e melhorias de acesso na região.",
+    "text": "A Câmara de BH anunciou audiência pública para discutir as obras da BR-040, requerida pelos vereadores Braulio Lara e José Ferreira.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/06",
     "linkname": "Leia a matéria completa"
   },
   {
     "data": "24/06/2026",
     "titulo": "🏗️ José Ferreira cobra informações sobre obras no antigo Aeroporto Carlos Prates",
-    "text": "A Comissão de Administração Pública e Segurança Pública aprovou pedido de informações apresentado por José Ferreira sobre o andamento das obras previstas para a área do antigo Aeroporto Carlos Prates. O vereador questiona a situação da licitação para construção de equipamentos públicos, incluindo a futura UPA Noroeste, além da garantia dos recursos necessários para a execução do projeto.",
+    "text": "José Ferreira solicitou informações sobre o andamento das obras e da futura UPA Noroeste na área do antigo Aeroporto Carlos Prates.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/06/vereadores-pedem-informa%C3%A7%C3%B5es-sobre-obras-na-%C3%A1rea-do-aeroporto-carlos-prates",
     "linkname": "Leia a matéria completa"
   },
   {
     "data": "17/06/2026",
     "titulo": "💊 Comissão debate falta de medicamentos na rede SUS-BH",
-    "text": "A Comissão de Saúde e Saneamento da Câmara de Belo Horizonte debateu a falta de medicamentos e insumos na rede SUS-BH. Durante a audiência, José Ferreira defendeu maior transparência sobre os estoques das unidades de saúde, sugerindo a divulgação atualizada dos medicamentos disponíveis para evitar que pacientes enfrentem filas em busca de itens em falta.",
+    "text": "José Ferreira participou da audiência sobre a falta de medicamentos no SUS-BH e defendeu maior transparência nos estoques das unidades de saúde.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/06/falta-de-medicamentos-no-sus-bh-foi-debatida-em-audi%C3%AAncia",
     "linkname": "Leia a matéria completa"
   },
   {
     "data": "15/06/2026",
     "titulo": "📚 Projeto sobre reaproveitamento de material didático avança na Câmara",
-    "text": "O Plenário da Câmara Municipal de Belo Horizonte aprovou, em 1º turno, o PL 824/2026, que garante às famílias da educação infantil privada o direito de reutilizar materiais didáticos de anos anteriores, buscando reduzir custos e evitar práticas abusivas. José Ferreira está entre os coautores da proposta, que segue apta para votação definitiva após receber 32 votos favoráveis.",
+    "text": "O PL 824/2026, do qual José Ferreira é coautor, foi aprovado em 1º turno e segue para votação definitiva.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/06/proposta-de-melhoria-na-inclus%C3%A3o-de-alunos-com-tea-tem-aprova%C3%A7%C3%A3o-definitiva",
     "linkname": "Leia a matéria completa"
   },
   {
     "data": "12/06/2026",
     "titulo": "📚 Projetos para educação avançam na Câmara de BH",
-    "text": "O Plenário da Câmara Municipal de Belo Horizonte colocou em pauta projetos voltados à educação, incluindo propostas sobre inclusão de estudantes com TEA, implantação de energia solar em escolas municipais e reaproveitamento de materiais didáticos. José Ferreira está entre os coautores do PL 824/2026, que busca reduzir custos para as famílias e incentivar a reutilização de materiais escolares na educação infantil privada.",
+    "text": "Projetos voltados à educação avançaram na Câmara. José Ferreira é coautor do PL 824/2026 sobre reaproveitamento de materiais didáticos.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/06/plen%C3%A1rio-vota-na-segunda-feira-15-projetos-para-%C3%A1rea-da-educa%C3%A7%C3%A3o-na-cidade",
     "linkname": "Leia a matéria completa"
   },
-
   {
     "data": "27/05/2026",
     "titulo": "🏥 Prestação de contas da Saúde de BH é apresentada na CMBH",
-    "text": "Representantes da Secretaria Municipal de Saúde apresentaram à Comissão de Saúde e Saneamento da Câmara de BH o balanço do SUS-BH referente ao 1º quadrimestre de 2026. A audiência, solicitada por José Ferreira, destacou investimentos de R$ 2,8 bilhões, mais de 12 mil cirurgias eletivas realizadas, ampliação da vacinação contra influenza e obras em unidades de saúde da capital.",
+    "text": "A Comissão de Saúde apresentou o balanço do SUS-BH no 1º quadrimestre de 2026, em audiência solicitada por José Ferreira.",
     "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/secretaria-destaca-obras-e-servi%C3%A7os-como-vacina%C3%A7%C3%A3o-e-cirurgias",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "14/05/2026",
-    "titulo": "✅ PL 455/2025 é aprovado em definitivo",
-    "text": "A Câmara de BH aprovou em 2º turno o Projeto de Lei 455/2025, de autoria de José Ferreira, que autoriza a desafetação de lote no Barreiro para ampliação de infraestruturas e serviços públicos.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/incentivo-fiscal-para-revitaliza%C3%A7%C3%A3o-de-%C3%A1reas-urbanas-%C3%A9-aprovado-em-2%C2%BA",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "13/05/2026",
-    "titulo": "🏗️ Projeto de José Ferreira sobre lote no Barreiro avança",
-    "text": "O Plenário da Câmara de BH pode votar em definitivo o projeto de José Ferreira que autoriza a desafetação de lote no Barreiro para ampliar infraestruturas e serviços públicos na região.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/incentivo-fiscal-para-revitaliza%C3%A7%C3%A3o-de-%C3%A1reas-urbanas-pode-ser-votado-em",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "12/05/2026",
-    "titulo": "💜 Audiência vai debater desafios da fibromialgia em BH",
-    "text": "Audiência pública solicitada por José Ferreira vai discutir os impactos da fibromialgia, além de cobrar a regulamentação da carteira de identificação e prioridade de atendimento para pacientes.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/problemas-enfrentados-por-pessoas-com-fibromialgia-em-debate-nesta",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "07/05/2026",
-    "titulo": "🧠 Audiência debate saúde mental materna no SUS-BH",
-    "text": "Especialistas defenderam mais assistência psicológica para gestantes e puérperas na rede pública. José Ferreira destacou que grande parte dos casos de depressão perinatal pode ser prevenida com rede de apoio e acompanhamento adequado.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/especialistas-defendem-assist%C3%AAncia-psicol%C3%B3gica-especializada-antes-e",
-    "linkname": "Leia a matéria completa"
-  },
-
-  {
-    "data": "04/05/2026",
-    "titulo": "📑 Comissão vai analisar execução de emendas impositivas",
-    "text": "A Câmara de BH aprovou a criação de comissão especial para fiscalizar atrasos na execução de emendas impositivas pela Prefeitura. José Ferreira está entre os vereadores autores do requerimento.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/05/parlamentares-criam-comiss%C3%A3o-para-analisar-execu%C3%A7%C3%A3o-de-emendas",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "Abr 30, 2026",
-    "titulo": "José Ferreira assina pedido para comissão sobre emendas 💼📊",
-    "text": "José Ferreira é um dos vereadores que assinam requerimento para criação de comissão especial que vai analisar atrasos na execução de emendas impositivas pela Prefeitura de BH.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/04/vereadores-podem-formar-comiss%C3%A3o-para-analisar-emendas-impositivas",
-    "linkname": "Leia a matéria completa"
-  },
-  {
-    "data": "Abr 22, 2026",
-    "titulo": "José Ferreira pede suspensão de cortes na saúde 🚑🏥",
-    "text": "José Ferreira apoiou solicitação para suspender demissões no Samu durante audiência na Câmara. O vereador defendeu diálogo com a Prefeitura diante dos impactos na saúde pública.",
-    "link": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/04/trabalhadores-da-sa%C3%BAde-protestam-contra-cortes-e-denunciam-desmonte",
     "linkname": "Leia a matéria completa"
   }
 ]
