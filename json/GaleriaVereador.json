@@ -2,7 +2,8 @@
   [
     {
     "titulo": "Visita ao CS Bom Sucesso",
-    "imagem": "/img/regionalBarreiro/cs_Bonsucesso.jpg"
+    "imagem": "/img/regionalBarreiro/cs_Bonsucesso.jpg",
+    "descricao": "Resumo sobre a visita: Conversamos com os pacientes e verificamos a estrutura do posto de saúde Bom Sucesso..."
   },
   {
     "titulo": "Visita ao CS Eduardo Araujo",
