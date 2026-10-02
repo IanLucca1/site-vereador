@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* --- Menu: link da página atual --- */
+#menu-nav a.ativo {
+  color: #192a56;
+  font-weight: 900;
+}
+
+/* --- Banner --- */
+.banner-trabalho {
+  width: 100%;
+  min-height: 22rem;
+  background: linear-gradient(135deg, #192a56 0%, #0b13a8 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding: 2rem 1.5rem;
+}
+
+.banner-trabalho h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.banner-trabalho p {
+  color: #e6e9f5;
+  font-size: 1.3rem;
+  max-width: 48rem;
+  line-height: 1.5;
+}
+
+/* --- Utilitários --- */
+.centralizado {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+/* --- Índice da página --- */
+#indice-trabalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 2rem 0 1rem;
+}
+
+#indice-trabalho a {
+  color: #192a56;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #192a56;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+#indice-trabalho a:hover,
+#indice-trabalho a:focus-visible {
+  background: #192a56;
+  color: white;
+}
+
+#slogan-trabalho {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #192a56;
+  margin: 1.5rem 0 2rem;
+  font-weight: bold;
+}
+
+/* --- Seções de conteúdo --- */
+.secao-conteudo {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  scroll-margin-top: 1rem;
+}
+
+.secao-conteudo > h3 {
+  color: #192a56;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.secao-conteudo h4 {
+  color: #192a56;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.secao-conteudo p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.secao-conteudo .intro {
+  text-align: center;
+  max-width: 50rem;
+  margin: 0 auto 1.5rem;
+  font-size: 1.1rem;
+}
+
+.subtitulo {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  font-size: 1.3rem !important;
+}
+
+/* --- Números --- */
+.grade-numeros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.numero {
+  border: 1px solid #ccc;
+  padding: 1.25rem 1rem;
+  text-align: center;
+}
+
+.numero strong {
+  display: block;
+  color: #192a56;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.numero span {
+  display: block;
+  margin-top: 0.4rem;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.numero.destaque {
+  background: #192a56;
+  border-color: #192a56;
+  grid-column: 1 / -1;
+}
+
+.numero.destaque strong {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.numero.destaque span {
+  color: #e6e9f5;
+  font-size: 1.1rem;
+}
+
+/* --- Citações --- */
+blockquote {
+  border-left: 4px solid #192a56;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin: 1.5rem auto 0;
+  max-width: 52rem;
+  color: #444;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #192a56;
+}
+
+/* --- Valor em destaque --- */
+.destaque-valor {
+  border: 1px solid #192a56;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.destaque-valor strong {
+  display: block;
+  color: #192a56;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.destaque-valor span {
+  display: block;
+  margin: 0.5rem auto 0;
+  max-width: 46rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* --- Tabela de verbas --- */
+.tabela-verbas {
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto 2rem;
+  border-collapse: collapse;
+}
+
+.tabela-verbas caption {
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tabela-verbas th,
+.tabela-verbas td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  color: #444;
+}
+
+.tabela-verbas th {
+  text-align: left;
+  font-weight: 600;
+  background: #f4f5fa;
+}
+
+.tabela-verbas td {
+  text-align: right;
+  font-weight: 700;
+  color: #192a56;
+  white-space: nowrap;
+}
+
+/* --- Itens e listas --- */
+.item-lista {
+  padding: 1rem 0;
+  border-top: 1px solid #e3e3e3;
+}
+
+.duas-colunas {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.coluna-texto {
+  flex: 1;
+  color: #444;
+}
+
+details {
+  margin-top: 0.75rem;
+}
+
+summary {
+  cursor: pointer;
+  color: #192a56;
+  font-weight: 600;
+  padding: 0.35rem 0;
+}
+
+summary:focus-visible {
+  outline: 2px solid #0b13a8;
+  outline-offset: 3px;
+}
+
+.lista-colunas {
+  list-style: none;
+  columns: 2;
+  column-gap: 2rem;
+  margin-top: 0.75rem;
+}
+
+.lista-colunas li {
+  color: #444;
+  padding: 0.25rem 0;
+  break-inside: avoid;
+}
+
+.lista-bairros {
+  columns: 3;
+}
+
+/* --- Cartões de obras --- */
+.grade-cartoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.cartao {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.foto {
+  margin: -1rem -1rem 1rem;
+  background: #e6e9f5;
+}
+
+.foto img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* --- Serviços do Ajudai --- */
+.grade-servicos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.servico {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.contato-ajudai {
+  margin-top: 1rem;
+}
+
+.contato-ajudai a,
+#link_Solicitacao,
+#link_Contato {
+  text-decoration: none;
+  color: #192a56;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contato-ajudai a:hover,
+#link_Solicitacao:hover,
+#link_Contato:hover {
+  color: #0b13a8;
+}
+
+/* --- Chamada final --- */
+.chamada {
+  text-align: center;
+}
+
+.chamada p {
+  text-align: center;
+}
+
+#link_Solicitacao,
+#link_Contato {
+  font-size: 1.3rem;
+}
+
+.separador {
+  margin: 0 0.75rem;
+  color: #666;
+}
+
+/* --- Mobile --- */
+@media (max-width: 768px) {
+  #Header-Principal {
+    height: auto;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .banner-trabalho {
+    min-height: 16rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .banner-trabalho h1 {
+    font-size: 2.2rem;
+  }
+
+  .banner-trabalho p {
+    font-size: 1.05rem;
+  }
+
+  .centralizado {
+    padding: 0 1rem 2rem;
+  }
+
+  #indice-trabalho {
+    justify-content: flex-start;
+  }
+
+  .secao-conteudo {
+    padding: 1rem;
+  }
+
+  .secao-conteudo > h3 {
+    font-size: 1.35rem;
+  }
+
+  .numero.destaque strong {
+    font-size: 2.8rem;
+  }
+
+  .destaque-valor strong {
+    font-size: 1.7rem;
+  }
+
+  .duas-colunas {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .lista-colunas,
+  .lista-bairros {
+    columns: 1;
+  }
+
+  .separador {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  #footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-left,
+  .footer-right {
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  .footer-center {
+    order: 3;
+  }
+
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-right img {
+    margin: 0 auto;
+  }
+}
